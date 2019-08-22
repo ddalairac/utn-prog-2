@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 /*
-Ingresar 5 números por consola, guardándolos en una variable escalar. Luego calcular y mostrar: el
-valor máximo, el valor mínimo y el promedio.
+Ingresar 5 números por consola, guardándolos en una variable escalar. 
+Luego calcular y mostrar: el valor máximo, el valor mínimo y el promedio.
 */
 namespace Ejercicio1
 {

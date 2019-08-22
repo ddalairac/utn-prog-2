@@ -16,10 +16,8 @@ namespace Ejercicio4
     {
         static void Main(string[] args)
         {
-            int userInput = 0;
-            int i = 1;
+            int i = 2;
             int suma = 0;
-            int cant = 0;
             int perfectos = 0;
             System.Console.WriteLine("4 primeros numeros perfectos");
             while (perfectos < 4)
@@ -27,22 +25,19 @@ namespace Ejercicio4
                 suma = 0;
                 for (int j = 1; j <= i; j++)
                 {
-                    if (i % j == 0)
+                    if (i % j == 0 && i != j)
                     {
-                        suma += i;
-                        cant++;
-                        System.Console.WriteLine("Es divisible {0}", i);
-                        Console.ReadKey();
+                        suma += j;
                     }
-                    i++;
                 }
-                if(suma == i)
+                if (suma == i)
                 {
                     perfectos++;
-                    System.Console.WriteLine("perfecto {0}", i);
+                    System.Console.WriteLine("numero perfecto {0}", i);
                 }
+                i++;
+
             }
-            System.Console.WriteLine("fin");
             Console.ReadKey();
         }
     }
