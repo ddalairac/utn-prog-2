@@ -1,0 +1,7 @@
+D:\ddalairac\Ejercicio2\bin\Debug\Ejercicio2.exe.config
+D:\ddalairac\Ejercicio2\bin\Debug\Ejercicio2.exe
+D:\ddalairac\Ejercicio2\bin\Debug\Ejercicio2.pdb
+D:\ddalairac\Ejercicio2\obj\Debug\Ejercicio2.csproj.CoreCompileInputs.cache
+D:\ddalairac\Ejercicio2\obj\Debug\Ejercicio2.exe
+D:\ddalairac\Ejercicio2\obj\Debug\Ejercicio2.pdb
+D:\ddalairac\Ejercicio2\obj\Debug\Ejercicio2.csprojAssemblyReference.cache
