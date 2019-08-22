@@ -1,0 +1,6 @@
+D:\ddalairac\Ejercicio6\obj\Debug\Ejercicio6.csproj.CoreCompileInputs.cache
+D:\ddalairac\Ejercicio6\bin\Debug\Ejercicio6.exe.config
+D:\ddalairac\Ejercicio6\bin\Debug\Ejercicio6.exe
+D:\ddalairac\Ejercicio6\bin\Debug\Ejercicio6.pdb
+D:\ddalairac\Ejercicio6\obj\Debug\Ejercicio6.exe
+D:\ddalairac\Ejercicio6\obj\Debug\Ejercicio6.pdb
