@@ -1,0 +1,6 @@
+D:\ddalairac\Ejercicio7\bin\Debug\Ejercicio7.exe.config
+D:\ddalairac\Ejercicio7\bin\Debug\Ejercicio7.exe
+D:\ddalairac\Ejercicio7\bin\Debug\Ejercicio7.pdb
+D:\ddalairac\Ejercicio7\obj\Debug\Ejercicio7.csproj.CoreCompileInputs.cache
+D:\ddalairac\Ejercicio7\obj\Debug\Ejercicio7.exe
+D:\ddalairac\Ejercicio7\obj\Debug\Ejercicio7.pdb

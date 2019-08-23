@@ -1,0 +1,7 @@
+D:\ddalairac\Ejercicio11\bin\Debug\Ejercicio11.exe.config
+D:\ddalairac\Ejercicio11\bin\Debug\Ejercicio11.exe
+D:\ddalairac\Ejercicio11\bin\Debug\Ejercicio11.pdb
+D:\ddalairac\Ejercicio11\obj\Debug\Ejercicio11.csprojAssemblyReference.cache
+D:\ddalairac\Ejercicio11\obj\Debug\Ejercicio11.csproj.CoreCompileInputs.cache
+D:\ddalairac\Ejercicio11\obj\Debug\Ejercicio11.exe
+D:\ddalairac\Ejercicio11\obj\Debug\Ejercicio11.pdb
