@@ -16,6 +16,7 @@ namespace Ejercicio6
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio Nro 06";
             int userInputInit = 0;
             int userInputEnd = 0;
             bool loop = true;

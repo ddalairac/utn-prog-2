@@ -14,6 +14,7 @@ namespace Ejercicio3
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio Nro 03";
             int userInput = 0;
             System.Console.WriteLine("Ingresar un número");
             if (int.TryParse(Console.ReadLine(), out userInput))

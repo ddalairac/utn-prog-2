@@ -19,6 +19,7 @@ namespace Ejercicio11
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio Nro 11";
             int min = int.MaxValue;
             int max = int.MinValue;
             int userInput = 0;

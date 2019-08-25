@@ -14,6 +14,7 @@ namespace Ejercicio2
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio Nro 02";
             int userInput = 0;
             bool loop = true;
             bool flag = false;

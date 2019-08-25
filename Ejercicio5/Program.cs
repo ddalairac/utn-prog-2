@@ -19,6 +19,7 @@ namespace Ejercicio5
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio Nro 05";
             int userInput = 0;
             int numero = 1;
             System.Console.WriteLine("Ingrese un numero para buscar los centros numericos que contiene");

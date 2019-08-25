@@ -1,0 +1,6 @@
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio6\bin\Debug\Ejercicio6.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio6\bin\Debug\Ejercicio6.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio6\bin\Debug\Ejercicio6.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio6\obj\Debug\Ejercicio06.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio6\obj\Debug\Ejercicio6.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio6\obj\Debug\Ejercicio6.pdb

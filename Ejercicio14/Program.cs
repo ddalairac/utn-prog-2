@@ -16,6 +16,7 @@ namespace Ejercicio14
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio Nro 14";
             double userInput;
             double areaCuadrado;
             double areaTriangulo;

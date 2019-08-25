@@ -18,6 +18,7 @@ namespace Ejercicio7
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio Nro 07";
             DateTime birthDate;
             Console.WriteLine("Calcular dias vividos!;");
             Console.Write("Ingrese fecha de nacimiento (DD/MM/YYY): ");

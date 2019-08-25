@@ -13,6 +13,7 @@ namespace Ejercicio1
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio Nro 01";
             int[] userInput = new int[5];
             int min = int.MaxValue;
             int max = int.MinValue;

@@ -16,6 +16,7 @@ namespace Ejercicio4
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio Nro 04";
             int i = 2;
             int suma = 0;
             int perfectos = 0;

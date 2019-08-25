@@ -29,6 +29,7 @@ namespace Ejercicio08
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio Nro 08";
             char continuar = 's';
 
             string nombre;

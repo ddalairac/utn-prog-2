@@ -15,6 +15,7 @@ namespace Ejercicio13
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio Nro 13";
             double userInput;
             string conversion1;
             double conversion2;

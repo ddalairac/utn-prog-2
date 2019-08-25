@@ -19,6 +19,7 @@ namespace Ejercicio10
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio Nro 10";
             int number = 0;
             int espacio = 0;
             System.Console.Write("Ingrese un numero: ");

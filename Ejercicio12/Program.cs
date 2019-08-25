@@ -16,6 +16,7 @@ namespace Ejercicio12
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio Nro 12";
             bool continuar = true;
             char response = 's';
             int number = 0;

@@ -22,6 +22,7 @@ namespace Ejercicio15
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio Nro 15";
             double userInputNum1;
             double userInputNum2;
             char userInputOp;
