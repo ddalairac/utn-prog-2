@@ -27,7 +27,7 @@ namespace Ejercicio11
             for (int i = 0; i < 10; i++)
             {
                 do {
-                    userInput = getNumber("Ingrese un numero:");
+                    userInput = getNumber("Ingrese un numero",i);
                     valid = Validacion.Validate(userInput, -100, 100);
                     //System.Console.WriteLine("valid: {0}", valid);
                     if(valid == false)
@@ -38,7 +38,6 @@ namespace Ejercicio11
                     
                 } while (valid != true);
 
-                System.Console.WriteLine("{0}",i);
 
                 if (userInput < min)
                 {
@@ -58,14 +57,14 @@ namespace Ejercicio11
 
         }
 
-        public static int getNumber(string args)
+        public static int getNumber(string args, int i)
         {
             int userInput = 0;
             int response = 0;
             bool loop = true;
             do
             {
-                System.Console.WriteLine("{0}", args);
+                System.Console.WriteLine("{0} {1}:", args,i);
                 if (int.TryParse(Console.ReadLine(), out userInput))
                 {
                     response = userInput;

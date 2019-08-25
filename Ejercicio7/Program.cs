@@ -18,15 +18,20 @@ namespace Ejercicio7
     {
         static void Main(string[] args)
         {
-            int day = getNumber("dia");
-            int month = getNumber("mes");
-            int year = getNumber("año");
-            string actualDate = DateTime.Now.ToString("MM/dd/yyyy");
-
-            biciesto();
+            DateTime birthDate;
+            Console.WriteLine("Calcular dias vividos!;");
+            Console.Write("Ingrese fecha de nacimiento (DD/MM/YYY): ");
+            if (DateTime.TryParse(Console.ReadLine(), out birthDate)){
+                DateTime today = DateTime.Now;
+                Console.WriteLine("Dias vividos {0}", (today - birthDate).Days);
+            }
+            else {
+                Console.WriteLine("Incorrect date format!");
+            }
             Console.ReadKey();
         }
-        static int getNumber(string args)
+        /*
+        static int GetNumber(string args)
         {
             int userInput = 0;
             bool loop = true;
@@ -44,59 +49,15 @@ namespace Ejercicio7
             } while (loop == true);
             return userInput;
         }
-
-        static void biciesto()
+        static int AddDiaBiciesto(int year)
         {
-            int userInputInit = 0;
-            int userInputEnd = 0;
-            bool loop = true;
-            do
+            int response = 0;
+            if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0))
             {
-                System.Console.WriteLine("Ingrese un año de inicio");
-                if (int.TryParse(Console.ReadLine(), out userInputInit))
-                {
-                    loop = false;
-                }
-                else
-                {
-                    System.Console.WriteLine("Error");
-                }
-            } while (loop == true);
-
-
-            loop = true;
-            do
-            {
-                System.Console.WriteLine("Ingrese un año de fin");
-                if (int.TryParse(Console.ReadLine(), out userInputEnd))
-                {
-                    if (userInputInit < userInputEnd)
-                    {
-                        loop = false;
-                    }
-                    else
-                    {
-                        System.Console.WriteLine("Error, ingrese un año mayor al de inicio");
-                    }
-                }
-                else
-                {
-                    System.Console.WriteLine("Error");
-                }
-            } while (loop == true);
-
-
-            System.Console.WriteLine("incio {0} fin {1}", userInputInit, userInputEnd);
-
-            System.Console.WriteLine("\nAños biciestos:");
-            for (int i = userInputInit; i < userInputEnd; i++)
-            {
-                if ((i % 400 == 0) || (i % 4 == 0 && i % 100 != 0))
-                {
-                    System.Console.Write("{0} ", i);
-                }
+                response = 1;
             }
-
+            return response;
         }
+        */
     }
 }

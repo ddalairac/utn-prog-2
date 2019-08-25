@@ -5,3 +5,10 @@ D:\ddalairac\Ejercicio11\obj\Debug\Ejercicio11.csprojAssemblyReference.cache
 D:\ddalairac\Ejercicio11\obj\Debug\Ejercicio11.csproj.CoreCompileInputs.cache
 D:\ddalairac\Ejercicio11\obj\Debug\Ejercicio11.exe
 D:\ddalairac\Ejercicio11\obj\Debug\Ejercicio11.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio11\bin\Debug\Ejercicio11.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio11\bin\Debug\Ejercicio11.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio11\bin\Debug\Ejercicio11.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio11\obj\Debug\Ejercicio11.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio11\obj\Debug\Ejercicio11.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio11\obj\Debug\Ejercicio11.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio11\obj\Debug\Ejercicio11.pdb
