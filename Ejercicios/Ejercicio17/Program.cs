@@ -26,9 +26,9 @@ namespace Ejercicio17
         static void Main(string[] args)
         {
             Console.Title = "Ejercicio Nro 17";
-            int tinta;
+            short tinta;
             char continuar;
-            int menu;
+            short menu;
             Boligrafo boligrafoBlue = new Boligrafo(ConsoleColor.Blue,100);
             Boligrafo boligrafoRed = new Boligrafo(ConsoleColor.Red, 50);
             do {
@@ -44,13 +44,13 @@ namespace Ejercicio17
                     "Seleccione un item: ", 
                     boligrafoBlue.GetTinta(), boligrafoRed.GetTinta()
                 );
-                if (int.TryParse(Console.ReadLine(), out menu))
+                if (short.TryParse(Console.ReadLine(), out menu))
                 {
                     switch (menu)
                     {
                         case 1:
                             Console.Write("Ingrese cantidad a pintar azul: ");
-                            if (int.TryParse(Console.ReadLine(), out tinta))
+                            if (short.TryParse(Console.ReadLine(), out tinta))
                             {
                                 Console.ForegroundColor = boligrafoBlue.GetColor();
                                 Console.WriteLine("{0}", boligrafoBlue.Pintar(tinta));
@@ -60,7 +60,7 @@ namespace Ejercicio17
                             break;
                         case 2:
                             Console.Write("Ingrese cantidad a pintar rojo: ");
-                            if (int.TryParse(Console.ReadLine(), out tinta))
+                            if (short.TryParse(Console.ReadLine(), out tinta))
                             {
                                 Console.ForegroundColor = boligrafoRed.GetColor();
                                 Console.WriteLine("{0}", boligrafoRed.Pintar(tinta));
@@ -70,7 +70,7 @@ namespace Ejercicio17
                             break;
                         case 3:
                             Console.Write("Ingrese cantidad azul a cargar: ");
-                            if (int.TryParse(Console.ReadLine(), out tinta))
+                            if (short.TryParse(Console.ReadLine(), out tinta))
                             {
                                 boligrafoBlue.SetTinta(tinta);
                                 Console.WriteLine("tinta azul: {0} ", boligrafoBlue.GetTinta());
@@ -78,7 +78,7 @@ namespace Ejercicio17
                             break;
                         case 4:
                             Console.Write("Ingrese cantidad roja a cargar: ");
-                            if (int.TryParse(Console.ReadLine(), out tinta))
+                            if (short.TryParse(Console.ReadLine(), out tinta))
                             {
                                 boligrafoRed.SetTinta(tinta);
                                 Console.WriteLine("tinta roja: {0} ", boligrafoRed.GetTinta());

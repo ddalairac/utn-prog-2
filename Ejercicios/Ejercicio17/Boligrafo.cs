@@ -22,25 +22,25 @@ namespace Ejercicio17
 {
     public class Boligrafo
     {
-        public int cantidadTintaMax;
-        public int tinta;
+        public short cantidadTintaMax;
+        public short tinta;
         public ConsoleColor color;
-        public  Boligrafo(ConsoleColor color, int tinta) {
+        public  Boligrafo(ConsoleColor color, short tinta) {
             this.color = color;
             SetTinta(tinta);
         }
         public ConsoleColor GetColor() {
             return this.color;
         }
-        public int GetTinta(){
+        public short GetTinta(){
             return this.tinta;
         }
-        public int SetTinta(int tinta) {
-            int gastada = 0;
+        public short SetTinta(short tinta) {
+            short gastada = 0;
             // gasta tinta
             if (tinta < 0){ 
                 if (this.tinta + tinta <= 0){
-                    gastada = -this.tinta;
+                    gastada += this.tinta;
                     this.tinta = 0;
                 } else {
                     gastada = tinta;
@@ -56,13 +56,14 @@ namespace Ejercicio17
             }
             return gastada;
         }
-        public string Pintar(int tinta) {
+        public string Pintar(short tinta) {
             string pintar = "";
-            int cant;
-            cant = SetTinta(- tinta);
+            short cant;
+            int gasto = tinta * -1;
+            cant = SetTinta((short)gasto);
             pintar += "Gasto:" + cant.ToString() + " \n";
 
-            for (int i = 0; i < (cant *-1); i++){
+            for (short i = 0; i < (cant *-1); i++){
                 pintar += "*";
             }
             return pintar;
