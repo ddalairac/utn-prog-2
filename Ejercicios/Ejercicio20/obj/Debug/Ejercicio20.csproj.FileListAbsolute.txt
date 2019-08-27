@@ -1,0 +1,7 @@
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio20\bin\Debug\Ejercicio20.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio20\bin\Debug\Ejercicio20.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio20\bin\Debug\Ejercicio20.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio20\obj\Debug\Ejercicio20.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio20\obj\Debug\Ejercicio20.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio20\obj\Debug\Ejercicio20.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio20\obj\Debug\Ejercicio20.pdb

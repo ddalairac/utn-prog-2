@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Billetes
+{
+    public class Euro : Moneda
+    {
+        public Euro(double cantidad) : base(cantidad) { }
+        public Euro() : this(0) { }
+    }
+}
