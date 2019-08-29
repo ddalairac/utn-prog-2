@@ -10,5 +10,20 @@ namespace Billetes
     {
         public Euro(double cantidad) : base(cantidad) { }
         public Euro() : this(0) { }
+
+
+        // Convertir moneda
+        private static double cotizRespectoDolar
+        {
+            get
+            {
+                return 0.85;
+            }
+        }
+        public override double GetCotizacion()
+        {
+            double response = base.GetCantiad() * cotizRespectoDolar;
+            return response;
+        }
     }
 }

@@ -8,13 +8,22 @@ namespace Billetes
 {
     public class Dolar : Moneda
     {
-        public Dolar(double cantidad):base(cantidad){ }
+        public Dolar(double cantidad) : base(cantidad) { }
         public Dolar() : this(0) { }
-        public static double cotizRespectoDolar = 1;
 
+
+        // Convertir moneda
+        private static double cotizRespectoDolar
+        {
+            get
+            {
+                return 1;
+            }
+        }
+        public override double GetCotizacion()
+        {
+            double response = base.GetCantiad() * cotizRespectoDolar;
+            return response;
+        }
     }
-    //public static double GetCotizacion()
-    //{
-    //    return cotizRespectoDolar;
-    //}
 }
