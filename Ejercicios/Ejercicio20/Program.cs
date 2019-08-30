@@ -27,6 +27,7 @@ namespace Ejercicio20
             Dolar mon1 = new Dolar(10);
             Euro mon2 = new Euro(10);
             Peso mon3 = new Peso(10);
+            int numero = 0;
 
             Console.WriteLine("mon1 (Dolar) = {0}",mon1.GetCantiad());
             Console.WriteLine("mon2 (Euro) = {0}", mon2.GetCantiad());
@@ -45,6 +46,8 @@ namespace Ejercicio20
 
             //Console.WriteLine(mon1 == mon2);
             //Console.WriteLine(mon1 != mon2);
+            int number = 0;
+            number.
 
             Console.ReadKey();
         }

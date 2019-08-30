@@ -1,0 +1,7 @@
+D:\ddalairac\Ejercicios\Ejercicio21\bin\Debug\Ejercicio21.exe.config
+D:\ddalairac\Ejercicios\Ejercicio21\bin\Debug\Ejercicio21.exe
+D:\ddalairac\Ejercicios\Ejercicio21\bin\Debug\Ejercicio21.pdb
+D:\ddalairac\Ejercicios\Ejercicio21\obj\Debug\Ejercicio21.csprojAssemblyReference.cache
+D:\ddalairac\Ejercicios\Ejercicio21\obj\Debug\Ejercicio21.csproj.CoreCompileInputs.cache
+D:\ddalairac\Ejercicios\Ejercicio21\obj\Debug\Ejercicio21.exe
+D:\ddalairac\Ejercicios\Ejercicio21\obj\Debug\Ejercicio21.pdb
