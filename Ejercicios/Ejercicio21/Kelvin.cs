@@ -16,13 +16,70 @@ namespace Ejercicio21
     class Kelvin
     {
         public int value;
-        public int ToCelcius()
+        public Kelvin(int value)
         {
-            return 0;
+            this.value = value;
         }
-        public int ToFahreheit()
+        private int ToCelcius()
         {
-            return 0;
+            double result = this.value - 273.15;
+            return (int)result;
+        }
+        private int ToFahrenheit()
+        {
+            double result = ToCelcius() * 9 / 5 + 32;
+            return (int) result;
+        }
+        public static explicit operator Fahrenheit(Kelvin c)
+        {
+            int num = 0;
+            if (!(c is null))
+            {
+                num = c.ToFahrenheit();
+            }
+            Fahrenheit aux = new Fahrenheit(num);
+            return aux;
+        }
+        public static explicit operator Celsius(Kelvin c)
+        {
+            int num = 0;
+            if (!(c is null))
+            {
+                num = c.ToCelcius();
+            }
+            Celsius aux = new Celsius(num);
+            return aux;
+        }
+        public static int operator +(Kelvin c1, Kelvin c2)
+        {
+            int result = 0;
+            if (!(c1 is null) && !(c2 is null))
+            {
+                result = c1.value + c2.value;
+            }
+            return result;
+        }
+        public static int operator -(Kelvin c1, Kelvin c2)
+        {
+            int result = 0;
+            if (!(c1 is null) && !(c2 is null))
+            {
+                result = c1.value - c2.value;
+            }
+            return result;
+        }
+        public static bool operator ==(Kelvin c1, Kelvin c2)
+        {
+            bool response = false;
+            if (!(c1 is null) && !(c2 is null))
+            {
+                response = c1.value.Equals(c2.value);
+            }
+            return response;
+        }
+        public static bool operator !=(Kelvin c1, Kelvin c2)
+        {
+            return !(c1 == c2);
         }
     }
 }

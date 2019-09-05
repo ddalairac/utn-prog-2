@@ -17,7 +17,35 @@ namespace Ejercicio21
     {
         static void Main(string[] args)
         {
-            int argNumber;
+            Console.Title = "Ejercicio Nro 21";
+
+            Celsius c1 = new Celsius(15);
+            Celsius c2 = new Celsius(5);
+            Fahrenheit f1 = new Fahrenheit(45);
+            Fahrenheit f2 = new Fahrenheit(35);
+            Kelvin k1 = new Kelvin(315);
+            Kelvin k2 = new Kelvin(305);
+
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat("+ {0}\n",c1 + c2);
+            sb.AppendFormat("- {0}\n", c1 - c2);
+            sb.AppendFormat("== {0}\n", c1 == c2);
+            sb.AppendFormat("!= {0}\n\n", c1 != c2);
+
+            sb.AppendFormat("+ {0}\n", f1 + f2);
+            sb.AppendFormat("- {0}\n", f1 - f2);
+            sb.AppendFormat("== {0}\n", f1 == f2);
+            sb.AppendFormat("!= {0}\n\n", f1 != f2);
+
+            sb.AppendFormat("(Kelvin)c1 {0}\n", ((Kelvin)c1).value);
+            sb.AppendFormat("(Fahrenheit)c1 {0}\n\n", ((Fahrenheit)c1).value);
+            
+            sb.AppendFormat("!= {0}\n\n", k1 != k2);
+
+
+            Console.WriteLine(sb.ToString());
+
+            /*int argNumber;
             string argMessage, argDefault;
 
             Test test = new Test();
@@ -41,11 +69,11 @@ namespace Ejercicio21
             Console.WriteLine(sb.ToString());
 
             sb.Remove(1, 11);
-            Console.WriteLine(sb.ToString());
+            Console.WriteLine(sb.ToString());*/
             Console.ReadKey();
         }
     }
-    public class Test
+    /*public class Test
     {
         public void Method(out int answer, out string message, out string stillNull)
         {
@@ -54,6 +82,6 @@ namespace Ejercicio21
             stillNull = null;
         }
 
-    }
+    }*/
 }
 
