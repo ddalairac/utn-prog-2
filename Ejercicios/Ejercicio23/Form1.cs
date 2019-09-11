@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Billetes;
 
 namespace Ejercicio23
 {
@@ -18,10 +19,19 @@ namespace Ejercicio23
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            inDolar.Text = dolar.GetCotizacion().ToString();
+            inEuro.Text = euro.GetCotizacion().ToString();
+            inPeso.Text = peso.GetCotizacion().ToString();
+            inCambioDolar.Text = Dolar.cotizRespectoDolar.ToString();
+            inCambioEuro.Text = Euro.cotizRespectoDolar.ToString();
+            inCambioPeso.Text = Peso.cotizRespectoDolar.ToString();
         }
 
 
+        private bool lockImg = true;
+        Dolar dolar = new Dolar();
+        Euro euro = new Euro();
+        Peso peso = new Peso();
 
 
 
@@ -64,7 +74,20 @@ namespace Ejercicio23
         }
         private void buttonLock_Click(object sender, EventArgs e)
         {
-
+            if(lockImg == true)
+            {
+                inCambioEuro.ReadOnly = true;
+                inCambioDolar.ReadOnly = true;
+                inCambioPeso.ReadOnly = true;
+                lockImg = false;
+            }
+            else
+            {
+                inCambioEuro.ReadOnly = false;
+                inCambioDolar.ReadOnly = false;
+                inCambioPeso.ReadOnly = false;
+                lockImg = true;
+            }
         }
 
         private void outEu2Eu_TextChanged(object sender, EventArgs e)
