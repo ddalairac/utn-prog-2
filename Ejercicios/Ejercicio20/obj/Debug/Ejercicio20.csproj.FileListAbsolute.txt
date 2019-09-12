@@ -12,3 +12,10 @@ D:\ddalairac\Ejercicios\Ejercicio20\obj\Debug\Ejercicio20.pdb
 D:\ddalairac\Ejercicios\Ejercicio20\bin\Debug\Ejercicio20.exe.config
 D:\ddalairac\Ejercicios\Ejercicio20\bin\Debug\Ejercicio20.exe
 D:\ddalairac\Ejercicios\Ejercicio20\bin\Debug\Ejercicio20.pdb
+D:\ddalairac\Ejercicios\Ejercicios\Ejercicio20\obj\Debug\Ejercicio20.csprojAssemblyReference.cache
+D:\ddalairac\Ejercicios\Ejercicios\Ejercicio20\obj\Debug\Ejercicio20.csproj.CoreCompileInputs.cache
+D:\ddalairac\Ejercicios\Ejercicios\Ejercicio20\obj\Debug\Ejercicio20.exe
+D:\ddalairac\Ejercicios\Ejercicios\Ejercicio20\obj\Debug\Ejercicio20.pdb
+D:\ddalairac\Ejercicios\Ejercicios\Ejercicio20\bin\Debug\Ejercicio20.exe.config
+D:\ddalairac\Ejercicios\Ejercicios\Ejercicio20\bin\Debug\Ejercicio20.exe
+D:\ddalairac\Ejercicios\Ejercicios\Ejercicio20\bin\Debug\Ejercicio20.pdb

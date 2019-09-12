@@ -13,44 +13,38 @@ namespace Billetes
             this.cantidad = cantidad;
         }
         public Moneda(): this(0){ }
-        public double GetCantiad()
+        public double GetCantidad()
         {
             return this.cantidad;
         }
         // Sobre escribir operadores
         public static double operator +(Moneda a, Moneda b)
         {
-            //return a.GetCantiad() + b.GetCantiad();
             return a.GetCotizacion() + b.GetCotizacion();
         }
         public static double operator -(Moneda a, Moneda b)
         {
-            //return a.GetCantiad() - b.GetCantiad();
             return a.GetCotizacion() - b.GetCotizacion();
         }
         public static double operator *(Moneda a, Moneda b)
         {
-            // return a.GetCantiad() * b.GetCantiad();
             return a.GetCotizacion() * b.GetCotizacion();
         }
         public static double operator /(Moneda a, Moneda b)
         {
             double response = 0;
-            if(b.GetCantiad() != 0)
+            if(b.GetCantidad() != 0)
             {
-                // response = a.GetCantiad() / b.GetCantiad();
                 response = a.GetCotizacion() / b.GetCotizacion();
             }
             return response;
         }
         public static bool operator ==(Moneda a, Moneda b)
         {
-            // return a.GetCantiad() == b.GetCantiad();
             return a.GetCotizacion() == b.GetCotizacion();
         }
         public static bool operator != (Moneda a, Moneda b)
         {
-            // return a.GetCantiad() != b.GetCantiad();
             return a.GetCotizacion() != b.GetCotizacion();
         }
         // warning VS, sugeridos al sobreescribir los operadores == y !=
@@ -58,11 +52,11 @@ namespace Billetes
         {
             var moneda = obj as Moneda;
             return moneda != null &&
-                   GetCantiad() == moneda.GetCantiad();
+                   GetCantidad() == moneda.GetCantidad();
         }
         public override int GetHashCode()
         {
-            return -639601069 + GetCantiad().GetHashCode();
+            return -639601069 + GetCantidad().GetHashCode();
         }
         public abstract double GetCotizacion();
     }

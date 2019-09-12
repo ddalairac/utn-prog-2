@@ -13,7 +13,7 @@ namespace Billetes
 
 
         // Convertir moneda
-        private static double cotizRespectoDolar
+        public static double cotizRespectoDolar
         {
             get
             {
@@ -22,8 +22,20 @@ namespace Billetes
         }
         public override double GetCotizacion()
         {
-            double response = base.GetCantiad() * cotizRespectoDolar;
+            double response = base.GetCantidad() * cotizRespectoDolar;
             return response;
+        }
+
+        public static explicit operator Peso (Euro p)
+        {
+            double aux = 0;
+            if (!(p is null))
+            {
+                aux = p.GetCotizacion();
+                aux = aux * Peso.cotizRespectoDolar;
+            }
+            Peso eu = new Peso(aux);
+            return eu;
         }
     }
 }

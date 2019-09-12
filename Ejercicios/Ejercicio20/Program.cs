@@ -27,11 +27,10 @@ namespace Ejercicio20
             Dolar mon1 = new Dolar(10);
             Euro mon2 = new Euro(10);
             Peso mon3 = new Peso(10);
-            int numero = 0;
 
-            Console.WriteLine("mon1 (Dolar) = {0}",mon1.GetCantiad());
-            Console.WriteLine("mon2 (Euro) = {0}", mon2.GetCantiad());
-            Console.WriteLine("mon3 (Peso) = {0}\n", mon3.GetCantiad());
+            Console.WriteLine("mon1 (Dolar) = {0}",mon1.GetCantidad());
+            Console.WriteLine("mon2 (Euro) = {0}", mon2.GetCantidad());
+            Console.WriteLine("mon3 (Peso) = {0}\n", mon3.GetCantidad());
 
             Console.WriteLine("mon1 (GetCotizacion) = {0}", mon1.GetCotizacion());
             Console.WriteLine("mon2 (GetCotizacion) = {0}", mon2.GetCotizacion());
@@ -42,12 +41,10 @@ namespace Ejercicio20
             Console.WriteLine("mon1 * mon2 = {0:#,###.00}", mon1 * mon2);
             Console.WriteLine("mon1 / mon2 = {0:#,###.00}", mon1 / mon2);
             Console.WriteLine("mon1 == mon2 = {0}", mon1 == mon2);
-            Console.WriteLine("mon1 != mon2 = {0}", mon1 != mon2);
+            Console.WriteLine("mon1 != mon2 = {0}\n", mon1 != mon2);
 
-            //Console.WriteLine(mon1 == mon2);
-            //Console.WriteLine(mon1 != mon2);
-            int number = 0;
-            number.
+            Console.WriteLine("(Peso) eu = {0:#,###.00}", ((Peso) mon2).GetCotizacion());
+            Console.WriteLine("(Euro) pe = {0:#,###.00}", ((Euro)mon3).GetCotizacion());
 
             Console.ReadKey();
         }

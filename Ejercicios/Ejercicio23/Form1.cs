@@ -13,60 +13,59 @@ namespace Ejercicio23
 {
     public partial class Form1 : Form
     {
+        private bool lockImg;
+        Dolar dolar;
+        Euro euro;
+        Peso peso;
         public Form1()
         {
             InitializeComponent();
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            inDolar.Text = dolar.GetCotizacion().ToString();
-            inEuro.Text = euro.GetCotizacion().ToString();
-            inPeso.Text = peso.GetCotizacion().ToString();
+            lockImg = true;
+            dolar = new Dolar();
+            euro = new Euro(6);
+            peso = new Peso();
+
+            inDolar.Text = dolar.GetCantidad().ToString();
+            inEuro.Text = euro.GetCantidad().ToString();
+            inPeso.Text = peso.GetCantidad().ToString();
+
             inCambioDolar.Text = Dolar.cotizRespectoDolar.ToString();
             inCambioEuro.Text = Euro.cotizRespectoDolar.ToString();
             inCambioPeso.Text = Peso.cotizRespectoDolar.ToString();
         }
 
-
-        private bool lockImg = true;
-        Dolar dolar = new Dolar();
-        Euro euro = new Euro();
-        Peso peso = new Peso();
-
-
-
         private void inEuro_TextChanged(object sender, EventArgs e)
         {
-
+            double aux = 0;
+            double.TryParse(inEuro.Text, out aux);
+            euro = new Euro(aux);
         }
         private void inDolar_TextChanged(object sender, EventArgs e)
         {
-
+            double aux = 0;
+            double.TryParse(inDolar.Text, out aux);
+            dolar = new Dolar(aux);
         }
         private void inPeso_TextChanged(object sender, EventArgs e)
         {
-
+            double aux = 0;
+            double.TryParse(inPeso.Text, out aux);
+            peso = new Peso(aux);
         }
-        private void inCambioDolar_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void inCambioPeso_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void inCambioEuro_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonEuro_Click(object sender, EventArgs e)
         {
-
+            outEu2Eu.Text = euro.GetCantidad().ToString();
+            outEu2Do.Text = euro.GetCotizacion().ToString();
+            outEu2Pe.Text = ((Peso)euro).GetCantidad().ToString();
         }
         private void buttonDolar_Click(object sender, EventArgs e)
         {
-
+            outDo2Do.Text = dolar.GetCantidad().ToString();
+            //outDo2Eu.Text = dolar.ToEuro().ToString();
+            //outDo2Pe.Text = dolar.ToPeso().ToString();
         }
         private void buttonPeso_Click(object sender, EventArgs e)
         {
@@ -90,6 +89,18 @@ namespace Ejercicio23
             }
         }
 
+        private void inCambioDolar_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void inCambioPeso_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void inCambioEuro_TextChanged(object sender, EventArgs e)
+        {
+
+        }
         private void outEu2Eu_TextChanged(object sender, EventArgs e)
         {
 

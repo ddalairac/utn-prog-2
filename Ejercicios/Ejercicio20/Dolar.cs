@@ -13,7 +13,7 @@ namespace Billetes
 
 
         // Convertir moneda
-        private static double cotizRespectoDolar
+        public static double cotizRespectoDolar
         {
             get
             {
@@ -22,7 +22,7 @@ namespace Billetes
         }
         public override double GetCotizacion()
         {
-            double response = base.GetCantiad() * cotizRespectoDolar;
+            double response = base.GetCantidad() * cotizRespectoDolar;
             return response;
         }
     }

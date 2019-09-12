@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace Ejercicio21
 {
-    class Fahrenheit
+    public class Fahrenheit
     {
         public int value;
         public Fahrenheit(int value)
         {
             this.value = value;
         }
-        private int ToCelcius()
+        public int ToCelcius()
         {
             double result = (this.value - 32) * 5 / 9;
             return (int)result;
         }
-        private int ToKelvin()
+        public int ToKelvin()
         {
             double result = (this.value -32)*5 / 9 + 273.15;
             return (int)result;

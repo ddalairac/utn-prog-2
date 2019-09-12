@@ -13,19 +13,19 @@ K = (F + 459.67) * 5/9
 
 namespace Ejercicio21
 {
-    class Kelvin
+    public class Kelvin
     {
         public int value;
         public Kelvin(int value)
         {
             this.value = value;
         }
-        private int ToCelcius()
+        public int ToCelcius()
         {
             double result = this.value - 273.15;
             return (int)result;
         }
-        private int ToFahrenheit()
+        public int ToFahrenheit()
         {
             double result = ToCelcius() * 9 / 5 + 32;
             return (int) result;
