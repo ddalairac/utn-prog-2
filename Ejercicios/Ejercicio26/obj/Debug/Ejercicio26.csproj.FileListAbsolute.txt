@@ -1,0 +1,7 @@
+D:\ddalairac\Ejercicios\Ejercicios\Ejercicio26\bin\Debug\Ejercicio26.exe.config
+D:\ddalairac\Ejercicios\Ejercicios\Ejercicio26\bin\Debug\Ejercicio26.exe
+D:\ddalairac\Ejercicios\Ejercicios\Ejercicio26\bin\Debug\Ejercicio26.pdb
+D:\ddalairac\Ejercicios\Ejercicios\Ejercicio26\obj\Debug\Ejercicio26.csprojAssemblyReference.cache
+D:\ddalairac\Ejercicios\Ejercicios\Ejercicio26\obj\Debug\Ejercicio26.csproj.CoreCompileInputs.cache
+D:\ddalairac\Ejercicios\Ejercicios\Ejercicio26\obj\Debug\Ejercicio26.exe
+D:\ddalairac\Ejercicios\Ejercicios\Ejercicio26\obj\Debug\Ejercicio26.pdb
