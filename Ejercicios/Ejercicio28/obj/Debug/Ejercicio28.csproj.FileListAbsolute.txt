@@ -1,0 +1,10 @@
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio28\bin\Debug\Ejercicio28.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio28\bin\Debug\Ejercicio28.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio28\bin\Debug\Ejercicio28.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio28\obj\Debug\Ejercicio28.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio28\obj\Debug\Ejercicio28.Form1.resources
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio28\obj\Debug\Ejercicio28.Properties.Resources.resources
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio28\obj\Debug\Ejercicio28.csproj.GenerateResource.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio28\obj\Debug\Ejercicio28.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio28\obj\Debug\Ejercicio28.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio28\obj\Debug\Ejercicio28.pdb

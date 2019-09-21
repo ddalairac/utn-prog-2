@@ -1,7 +1,6 @@
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio19\bin\Debug\Ejercicio19.exe.config
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio19\bin\Debug\Ejercicio19.exe
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio19\bin\Debug\Ejercicio19.pdb
-C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio19\obj\Debug\Ejercicio19.csprojAssemblyReference.cache
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio19\obj\Debug\Ejercicio19.csproj.CoreCompileInputs.cache
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio19\obj\Debug\Ejercicio19.exe
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio19\obj\Debug\Ejercicio19.pdb

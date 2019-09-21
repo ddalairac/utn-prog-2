@@ -1,7 +1,6 @@
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio18\bin\Debug\Ejercicio18.exe.config
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio18\bin\Debug\Ejercicio18.exe
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio18\bin\Debug\Ejercicio18.pdb
-C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio18\obj\Debug\Ejercicio18.csprojAssemblyReference.cache
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio18\obj\Debug\Ejercicio18.csproj.CoreCompileInputs.cache
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio18\obj\Debug\Ejercicio18.exe
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio18\obj\Debug\Ejercicio18.pdb

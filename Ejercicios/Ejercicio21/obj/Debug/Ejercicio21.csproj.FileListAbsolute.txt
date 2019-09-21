@@ -12,3 +12,10 @@ D:\ddalairac\Ejercicios\Ejercicios\Ejercicio21\obj\Debug\Ejercicio21.csprojAssem
 D:\ddalairac\Ejercicios\Ejercicios\Ejercicio21\obj\Debug\Ejercicio21.csproj.CoreCompileInputs.cache
 D:\ddalairac\Ejercicios\Ejercicios\Ejercicio21\obj\Debug\Ejercicio21.exe
 D:\ddalairac\Ejercicios\Ejercicios\Ejercicio21\obj\Debug\Ejercicio21.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio21\bin\Debug\Ejercicio21.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio21\bin\Debug\Ejercicio21.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio21\bin\Debug\Ejercicio21.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio21\obj\Debug\Ejercicio21.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio21\obj\Debug\Ejercicio21.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio21\obj\Debug\Ejercicio21.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio21\obj\Debug\Ejercicio21.pdb

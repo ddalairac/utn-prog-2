@@ -4,3 +4,9 @@ C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio14\bin\Debug\Ejercicio14.pdb
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio14\obj\Debug\Ejercicio14.csproj.CoreCompileInputs.cache
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio14\obj\Debug\Ejercicio14.exe
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio14\obj\Debug\Ejercicio14.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio14\bin\Debug\Ejercicio14.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio14\bin\Debug\Ejercicio14.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio14\bin\Debug\Ejercicio14.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio14\obj\Debug\Ejercicio14.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio14\obj\Debug\Ejercicio14.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio14\obj\Debug\Ejercicio14.pdb

@@ -5,3 +5,10 @@ C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio3\obj\Debug\Ejercicio03.csproj
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio3\obj\Debug\Ejercicio03.csproj.CoreCompileInputs.cache
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio3\obj\Debug\Ejercicio3.exe
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicio3\obj\Debug\Ejercicio3.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio3\bin\Debug\Ejercicio3.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio3\bin\Debug\Ejercicio3.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio3\bin\Debug\Ejercicio3.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio3\obj\Debug\Ejercicio03.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio3\obj\Debug\Ejercicio03.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio3\obj\Debug\Ejercicio3.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio3\obj\Debug\Ejercicio3.pdb

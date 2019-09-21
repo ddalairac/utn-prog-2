@@ -20,3 +20,7 @@ D:\ddalairac\Ejercicios\Ejercicios\Ejercicio23\bin\Debug\Ejercicio20.exe
 D:\ddalairac\Ejercicios\Ejercicios\Ejercicio23\bin\Debug\Ejercicio20.pdb
 D:\ddalairac\Ejercicios\Ejercicios\Ejercicio23\bin\Debug\Ejercicio20.exe.config
 D:\ddalairac\Ejercicios\Ejercicios\Ejercicio23\obj\Debug\Ejercicio23.csproj.CopyComplete
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio23\bin\Debug\Ejercicio20.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio23\bin\Debug\Ejercicio20.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio23\bin\Debug\Ejercicio20.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio23\obj\Debug\Ejercicio23.csproj.CopyComplete

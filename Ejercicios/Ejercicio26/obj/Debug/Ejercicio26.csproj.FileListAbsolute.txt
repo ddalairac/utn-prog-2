@@ -5,3 +5,10 @@ D:\ddalairac\Ejercicios\Ejercicios\Ejercicio26\obj\Debug\Ejercicio26.csprojAssem
 D:\ddalairac\Ejercicios\Ejercicios\Ejercicio26\obj\Debug\Ejercicio26.csproj.CoreCompileInputs.cache
 D:\ddalairac\Ejercicios\Ejercicios\Ejercicio26\obj\Debug\Ejercicio26.exe
 D:\ddalairac\Ejercicios\Ejercicios\Ejercicio26\obj\Debug\Ejercicio26.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio26\bin\Debug\Ejercicio26.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio26\bin\Debug\Ejercicio26.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio26\bin\Debug\Ejercicio26.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio26\obj\Debug\Ejercicio26.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio26\obj\Debug\Ejercicio26.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio26\obj\Debug\Ejercicio26.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio26\obj\Debug\Ejercicio26.pdb
