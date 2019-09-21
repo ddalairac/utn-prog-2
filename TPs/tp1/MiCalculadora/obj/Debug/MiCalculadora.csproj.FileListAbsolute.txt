@@ -1,0 +1,14 @@
+C:\Users\diego\Documents\Code\tp_laboratorio_2\tp1\MiCalculadora\bin\Debug\Program.cs
+C:\Users\diego\Documents\Code\tp_laboratorio_2\tp1\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\diego\Documents\Code\tp_laboratorio_2\tp1\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\diego\Documents\Code\tp_laboratorio_2\tp1\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\diego\Documents\Code\tp_laboratorio_2\tp1\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\tp1\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\diego\Documents\Code\tp_laboratorio_2\tp1\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\tp_laboratorio_2\tp1\MiCalculadora\obj\Debug\MiCalculadora.Form1.resources
+C:\Users\diego\Documents\Code\tp_laboratorio_2\tp1\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\diego\Documents\Code\tp_laboratorio_2\tp1\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\diego\Documents\Code\tp_laboratorio_2\tp1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\tp_laboratorio_2\tp1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\diego\Documents\Code\tp_laboratorio_2\tp1\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\diego\Documents\Code\tp_laboratorio_2\tp1\MiCalculadora\obj\Debug\MiCalculadora.pdb
