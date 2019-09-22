@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DBDC0BBE-2C5E-4170-9688-C62C9C8DAC06}</ProjectGuid>
+    <ProjectGuid>{755571EE-D522-418B-8333-53DB8BBB4CEB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ejercicio29</RootNamespace>
-    <AssemblyName>Ejercicio29</AssemblyName>
+    <RootNamespace>Ejercicio27</RootNamespace>
+    <AssemblyName>Ejercicio27</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Equipo.cs" />
-    <Compile Include="Jugador.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

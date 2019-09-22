@@ -19,6 +19,11 @@ namespace Ejercicio24
         public Form1()
         {
             InitializeComponent();
+            this.Text = "Ejercicio Nro 24";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;//no resize
+            this.CenterToScreen();
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
         }
         private void Form1_Load(object sender, EventArgs e)
         {

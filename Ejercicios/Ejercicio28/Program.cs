@@ -14,6 +14,7 @@ namespace Ejercicio28
         [STAThread]
         static void Main()
         {
+            Console.Title = "Ejercicio Nro 28";
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

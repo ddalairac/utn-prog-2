@@ -10,8 +10,9 @@ namespace Ejercicio26
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio Nro 26";
             Random random = new Random();
-            int[] numbers = new int[20];
+            int[] numbers = new int[20];    
             int[] numbersNegative;
             int[] numbersPositive;
             string separator = "";
