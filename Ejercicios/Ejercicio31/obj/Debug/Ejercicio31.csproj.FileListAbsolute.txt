@@ -1,0 +1,7 @@
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio31\obj\Debug\Ejercicio31.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio31\bin\Debug\Ejercicio31.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio31\bin\Debug\Ejercicio31.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio31\bin\Debug\Ejercicio31.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio31\obj\Debug\Ejercicio31.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio31\obj\Debug\Ejercicio31.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio31\obj\Debug\Ejercicio31.csprojAssemblyReference.cache
