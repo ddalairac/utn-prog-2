@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio40
 {
-    class Local : Llamada
+    public class Local : Llamada
     {
         protected float costo;
         public override float CostoLlamada { get { return CalcularCosto(); } }

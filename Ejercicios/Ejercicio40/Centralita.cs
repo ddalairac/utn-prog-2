@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio40
 {
-    class Centralita
+    public class Centralita
     {
         private List<Llamada> listaDeLlamadas;
         protected string razonSocial;
@@ -15,8 +15,6 @@ namespace Ejercicio40
         public float GananciasPorProvincial { get { return CalcularGanancia(Llamada.TipoLlamada.Provincial); } }
         public float GananciasPorTotal { get { return CalcularGanancia(Llamada.TipoLlamada.Todas); } }
         public List<Llamada> Llamadas { get { return listaDeLlamadas; } }
-
-
 
         public Centralita()
         {
@@ -52,7 +50,7 @@ namespace Ejercicio40
                     str.AppendLine(provincial.ToString());
                 }
             }
-            str.AppendLine("------------------------------------------------------------------------------------------------------");
+            str.AppendLine("--------------------------------------------------------------------------");
 
             return str.ToString();
         }
@@ -104,23 +102,40 @@ namespace Ejercicio40
             return acum;
         }
 
-        private bool AgregarLlamada(Llamada l)
+        private bool AgregarLlamada( Llamada l)
         {
-            if (!(l is null) && l is Llamada ) {
+            bool rta = false;
+            if (!(l is null) && l is Llamada)
+            {
                 this.Llamadas.Add(l);
+                rta = true;
             }
-            return true;
+            return rta;
         }
         public static bool operator ==(Centralita c, Llamada l)
         {
+            bool rta = false;
             if (!(l is null) && !(c is null) && l is Llamada && c is Centralita)
             {
+                foreach (Llamada aux in c.Llamadas)
+                {
+                    if (aux == l)
+                    {
+                        rta = true;
+                        break;
+                    }
+                }
             }
-            return true;
+            return rta;
         }
         public static bool operator !=(Centralita c, Llamada l)
         {
             return !(c == l);
+        }
+        public static bool operator +(Centralita c, Llamada l)
+        {
+            return (c != l) ? c.AgregarLlamada(l) : false;
+            //return c.AgregarLlamada(l);
         }
     }
 }
