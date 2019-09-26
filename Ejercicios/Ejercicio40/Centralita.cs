@@ -16,6 +16,8 @@ namespace Ejercicio40
         public float GananciasPorTotal { get { return CalcularGanancia(Llamada.TipoLlamada.Todas); } }
         public List<Llamada> Llamadas { get { return listaDeLlamadas; } }
 
+
+
         public Centralita()
         {
             listaDeLlamadas = new List<Llamada>();
@@ -102,6 +104,23 @@ namespace Ejercicio40
             return acum;
         }
 
-
+        private bool AgregarLlamada(Llamada l)
+        {
+            if (!(l is null) && l is Llamada ) {
+                this.Llamadas.Add(l);
+            }
+            return true;
+        }
+        public static bool operator ==(Centralita c, Llamada l)
+        {
+            if (!(l is null) && !(c is null) && l is Llamada && c is Centralita)
+            {
+            }
+            return true;
+        }
+        public static bool operator !=(Centralita c, Llamada l)
+        {
+            return !(c == l);
+        }
     }
 }
