@@ -1,0 +1,107 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ejercicio40
+{
+    class Centralita
+    {
+        private List<Llamada> listaDeLlamadas;
+        protected string razonSocial;
+
+        public float GananciasPorLocal { get { return CalcularGanancia(Llamada.TipoLlamada.Local); } }
+        public float GananciasPorProvincial { get { return CalcularGanancia(Llamada.TipoLlamada.Provincial); } }
+        public float GananciasPorTotal { get { return CalcularGanancia(Llamada.TipoLlamada.Todas); } }
+        public List<Llamada> Llamadas { get { return listaDeLlamadas; } }
+
+        public Centralita()
+        {
+            listaDeLlamadas = new List<Llamada>();
+        }
+
+        public Centralita(string razonSocial) : this()
+        {
+            this.razonSocial = razonSocial;
+        }
+
+        public string Mostrar()
+        {
+            Local local;
+            Provincial provincial;
+            StringBuilder str = new StringBuilder();
+            str.AppendFormat("\tRazon social: {0} \n", razonSocial);
+            str.Append("\tGanancias:: ");
+            str.AppendFormat("Total: {0}", GananciasPorTotal);
+            str.AppendFormat("  ¦  Local: {0}  ¦  Provincial: {1}\n", GananciasPorLocal, GananciasPorProvincial);
+            str.AppendLine("\t-");
+
+            foreach (Llamada l in Llamadas)
+            {
+                if (l is Local)
+                {
+                    local = (Local)l;
+                    str.AppendLine(local.ToString());
+                }
+                else
+                {
+                    provincial = (Provincial)l;
+                    str.AppendLine(provincial.ToString());
+                }
+            }
+            str.AppendLine("------------------------------------------------------------------------------------------------------");
+
+            return str.ToString();
+        }
+
+        public void OrdenarLlamadas()
+        {
+            listaDeLlamadas.Sort(Llamada.OrdenarPorDuracion);
+        }
+
+        private float CalcularGanancia(Llamada.TipoLlamada tipo)
+        {
+            float acum = 0;
+            Local local;
+            Provincial provincial;
+
+            foreach (Llamada l in Llamadas)
+            {
+                if (tipo == Llamada.TipoLlamada.Todas)
+                {
+                    if (l is Local)
+                    {
+                        local = (Local)l;
+                        acum += local.CostoLlamada;
+                    }
+                    else
+                    {
+                        provincial = (Provincial)l;
+                        acum += provincial.CostoLlamada;
+                    }
+                }
+                else if (tipo == Llamada.TipoLlamada.Local)
+                {
+                    if (l is Local)
+                    {
+                        local = (Local)l;
+                        acum += local.CostoLlamada;
+                    }
+                }
+                else if (tipo == Llamada.TipoLlamada.Provincial)
+                {
+                    if (l is Provincial)
+                    {
+                        provincial = (Provincial)l;
+                        acum += provincial.CostoLlamada;
+                    }
+                }
+            }
+
+            return acum;
+        }
+
+
+    }
+}

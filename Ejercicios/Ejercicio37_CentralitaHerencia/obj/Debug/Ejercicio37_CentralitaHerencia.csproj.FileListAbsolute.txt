@@ -1,0 +1,6 @@
+D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio37_CentralitaHerencia\bin\Debug\CentralitaHerencia.exe.config
+D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio37_CentralitaHerencia\bin\Debug\CentralitaHerencia.exe
+D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio37_CentralitaHerencia\bin\Debug\CentralitaHerencia.pdb
+D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio37_CentralitaHerencia\obj\Debug\Ejercicio37_CentralitaHerencia.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio37_CentralitaHerencia\obj\Debug\CentralitaHerencia.exe
+D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio37_CentralitaHerencia\obj\Debug\CentralitaHerencia.pdb
