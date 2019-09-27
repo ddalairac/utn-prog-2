@@ -134,9 +134,7 @@ namespace Ejercicio40
         }
         public static Centralita operator +(Centralita c, Llamada l)
         {
-
-            //(c != l) ? c.AgregarLlamada(l) : false;
-            //c.AgregarLlamada(l);
+            
             if(c != l)
             {
                 c.AgregarLlamada(l);

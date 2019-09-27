@@ -263,6 +263,7 @@
             this.Controls.Add(this.txtNroDestino);
             this.Controls.Add(this.buttonLlamar);
             this.Name = "FrmLlamador";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FrmLlamador";
             this.Load += new System.EventHandler(this.FrmLlamador_Load);
             this.panel.ResumeLayout(false);

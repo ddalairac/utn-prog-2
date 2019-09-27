@@ -32,13 +32,14 @@ namespace Ejercicio40_form
 
         private void buttonGenerar_Click(object sender, EventArgs e)
         {
-            FrmLlamador FormLlamador = new FrmLlamador(this.central);
-            FormLlamador.ShowDialog();
+            FrmLlamador formLlamador = new FrmLlamador(this.central);
+            formLlamador.ShowDialog();
         }
 
         private void buttonFacTotal_Click(object sender, EventArgs e)
         {
-
+            FrmMostrar frmMostrar = new FrmMostrar(this.central);
+            frmMostrar.ShowDialog();
         }
 
         private void buttonFacLocal_Click(object sender, EventArgs e)
