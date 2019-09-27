@@ -2,6 +2,6 @@ D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio40\bin\Debug\Ejercicio40.pdb
 D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio40\obj\Debug\Ejercicio40.csprojAssemblyReference.cache
 D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio40\obj\Debug\Ejercicio40.csproj.CoreCompileInputs.cache
 D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio40\obj\Debug\Ejercicio40.pdb
-D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio40\bin\Debug\Ejercicio40.dll.config
-D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio40\bin\Debug\Ejercicio40.dll
-D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio40\obj\Debug\Ejercicio40.dll
+D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio40\bin\Debug\Ejercicio40.exe.config
+D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio40\bin\Debug\Ejercicio40.exe
+D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio40\obj\Debug\Ejercicio40.exe

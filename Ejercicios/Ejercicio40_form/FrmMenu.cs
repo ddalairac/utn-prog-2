@@ -32,7 +32,7 @@ namespace Ejercicio40_form
 
         private void buttonGenerar_Click(object sender, EventArgs e)
         {
-            FrmLlamador FormLlamador = new FrmLlamador();
+            FrmLlamador FormLlamador = new FrmLlamador(this.central);
             FormLlamador.ShowDialog();
         }
 

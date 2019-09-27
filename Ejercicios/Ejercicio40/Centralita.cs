@@ -132,10 +132,16 @@ namespace Ejercicio40
         {
             return !(c == l);
         }
-        public static bool operator +(Centralita c, Llamada l)
+        public static Centralita operator +(Centralita c, Llamada l)
         {
-            return (c != l) ? c.AgregarLlamada(l) : false;
-            //return c.AgregarLlamada(l);
+
+            //(c != l) ? c.AgregarLlamada(l) : false;
+            //c.AgregarLlamada(l);
+            if(c != l)
+            {
+                c.AgregarLlamada(l);
+            }
+            return c;
         }
     }
 }
