@@ -26,35 +26,78 @@ namespace Ejercicio40
             this.razonSocial = razonSocial;
         }
 
-        public string Mostrar()
+        
+        public string Mostrar(Llamada.TipoLlamada tipo)
         {
             Local local;
             Provincial provincial;
             StringBuilder str = new StringBuilder();
             str.AppendFormat("\tRazon social: {0} \n", razonSocial);
-            str.Append("\tGanancias:: ");
-            str.AppendFormat("Total: {0}", GananciasPorTotal);
-            str.AppendFormat("  ¦  Local: {0}  ¦  Provincial: {1}\n", GananciasPorLocal, GananciasPorProvincial);
             str.AppendLine("\t-");
 
             foreach (Llamada l in Llamadas)
             {
-                if (l is Local)
+                if (l is Local && (tipo == Llamada.TipoLlamada.Todas || tipo == Llamada.TipoLlamada.Local))
                 {
                     local = (Local)l;
                     str.AppendLine(local.ToString());
                 }
-                else
+                else if(l is Provincial && (tipo == Llamada.TipoLlamada.Todas || tipo == Llamada.TipoLlamada.Provincial))
                 {
                     provincial = (Provincial)l;
                     str.AppendLine(provincial.ToString());
                 }
             }
-            str.AppendLine("--------------------------------------------------------------------------");
+            str.AppendLine("\t------------------------------------------------------------------------------------");
+            str.Append("\tGANANCIAS:: ");
+            switch (tipo)
+            {
+                case Llamada.TipoLlamada.Todas:
+                    str.AppendFormat("¦  Total: {0}  ", GananciasPorTotal);
+                    str.AppendFormat("¦  Local: {0}  ", GananciasPorLocal);
+                    str.AppendFormat("¦  Provincial: {0}  ", GananciasPorProvincial);
+                    break;
+                case Llamada.TipoLlamada.Local:
+                    str.AppendFormat("¦  Local: {0}  ", GananciasPorLocal);
+                    break;
+                case Llamada.TipoLlamada.Provincial:
+                    str.AppendFormat("¦  Provincial: {0}  ", GananciasPorProvincial);
+                    break;
+
+            }
+            str.AppendLine("  ¦\n");
 
             return str.ToString();
         }
+        public string Mostrar()
+        {
+            //Local local;
+            //Provincial provincial;
+            //StringBuilder str = new StringBuilder();
+            //str.AppendFormat("\tRazon social: {0} \n", razonSocial);
+            //str.Append("\tGanancias:: ");
+            //str.AppendFormat("Total: {0}", GananciasPorTotal);
+            //str.AppendFormat("  ¦  Local: {0}  ¦  Provincial: {1}\n", GananciasPorLocal, GananciasPorProvincial);
+            //str.AppendLine("\t-");
 
+            //foreach (Llamada l in Llamadas)
+            //{
+            //    if (l is Local)
+            //    {
+            //        local = (Local)l;
+            //        str.AppendLine(local.ToString());
+            //    }
+            //    else
+            //    {
+            //        provincial = (Provincial)l;
+            //        str.AppendLine(provincial.ToString());
+            //    }
+            //}
+            //str.AppendLine("\t-----------------------------------------------------------");
+
+            //return str.ToString();
+            return Mostrar(Llamada.TipoLlamada.Todas);
+        }
         public void OrdenarLlamadas()
         {
             listaDeLlamadas.Sort(Llamada.OrdenarPorDuracion);

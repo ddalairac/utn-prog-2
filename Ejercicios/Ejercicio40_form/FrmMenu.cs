@@ -24,6 +24,18 @@ namespace Ejercicio40_form
             //this.MaximizeBox = false;
             //this.MinimizeBox = false;
             this.central = new Centralita("Saltamonte");
+
+            Local l1 = new Local("3452345", 30, "23452345", (float)2.65);
+            Local l1b = l1;
+            Provincial l2 = new Provincial("53452345", Provincial.Franja.Franja_1, 15, "#546745634");
+            Local l3 = new Local("6785678", 40, "6345346", (float)2.65);
+            Provincial l4 = new Provincial(Provincial.Franja.Franja_3, l2);
+
+            this.central = central + l1;
+            this.central = central + l1b;
+            this.central = central + l2;
+            this.central = central + l3;
+            this.central = central + l4;
         }
 
         private void FrmMenu_Load(object sender, EventArgs e)
@@ -39,22 +51,27 @@ namespace Ejercicio40_form
         private void buttonFacTotal_Click(object sender, EventArgs e)
         {
             FrmMostrar frmMostrar = new FrmMostrar(this.central);
+            frmMostrar.Tipo = Llamada.TipoLlamada.Todas;
             frmMostrar.ShowDialog();
         }
 
         private void buttonFacLocal_Click(object sender, EventArgs e)
         {
-
+            FrmMostrar frmMostrar = new FrmMostrar(this.central);
+            frmMostrar.Tipo = Llamada.TipoLlamada.Local;
+            frmMostrar.ShowDialog();
         }
 
         private void buttonFacProvincial_Click(object sender, EventArgs e)
         {
-
+            FrmMostrar frmMostrar = new FrmMostrar(this.central);
+            frmMostrar.Tipo = Llamada.TipoLlamada.Provincial;
+            frmMostrar.ShowDialog();
         }
 
         private void buttonSalir_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

@@ -13,15 +13,23 @@ namespace Ejercicio40_form
 {
     public partial class FrmMostrar : Form
     {
-        Llamada llamada;
+        private Llamada.TipoLlamada tipo;
+        Centralita central;
         public FrmMostrar(Centralita central)
         {
             InitializeComponent();
+            this.central = central;
+            this.tipo = Llamada.TipoLlamada.Todas;
         }
-
         private void FrmMostrar_Load(object sender, EventArgs e)
         {
-            richTextBox.Text = "Resultado";
+            richTextBox.Text = "\n\t::::::::::::::::::::::::::::::::::::::: FACTURACION :::::::::::::::::::::::::::::::::::::::\n\n";
+            richTextBox.Text += this.central.Mostrar(this.tipo);
+            richTextBox.Enabled = false;
+        }
+
+        public Llamada.TipoLlamada Tipo {
+            set { this.tipo = value; }
         }
     }
 }
