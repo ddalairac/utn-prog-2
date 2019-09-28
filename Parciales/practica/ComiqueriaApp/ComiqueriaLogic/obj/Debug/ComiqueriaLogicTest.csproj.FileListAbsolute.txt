@@ -1,0 +1,7 @@
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogicTest\bin\Debug\ComiqueriaLogicTest.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogicTest\bin\Debug\ComiqueriaLogicTest.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogicTest\bin\Debug\ComiqueriaLogicTest.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogicTest\obj\Debug\ComiqueriaLogicTest.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogicTest\obj\Debug\ComiqueriaLogicTest.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogicTest\obj\Debug\ComiqueriaLogicTest.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogicTest\obj\Debug\ComiqueriaLogicTest.pdb
