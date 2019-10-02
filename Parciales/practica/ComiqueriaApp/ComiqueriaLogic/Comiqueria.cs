@@ -44,7 +44,7 @@ namespace ComiqueriaLogic
         }
         public string ListarVentas()
         {
-            StringBuilder srt = new StringBuilder("lISTADO DE VENTAS:\n");
+            StringBuilder srt = new StringBuilder("LISTADO DE VENTAS:\n");
             if (this.ventas.Count > 0)
             {
                 foreach (Venta venta in this.ventas)

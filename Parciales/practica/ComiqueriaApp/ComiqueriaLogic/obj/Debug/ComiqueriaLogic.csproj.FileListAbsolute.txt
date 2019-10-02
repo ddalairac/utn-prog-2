@@ -4,3 +4,10 @@ C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp\Comiqu
 C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.csproj.CoreCompileInputs.cache
 C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.dll
 C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.pdb
+D:\ddalairac\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogic\bin\Debug\ComiqueriaLogic.dll.config
+D:\ddalairac\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogic\bin\Debug\ComiqueriaLogic.dll
+D:\ddalairac\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogic\bin\Debug\ComiqueriaLogic.pdb
+D:\ddalairac\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.csprojAssemblyReference.cache
+D:\ddalairac\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.dll
+D:\ddalairac\utn-prog-2\Parciales\practica\ComiqueriaApp\ComiqueriaLogic\obj\Debug\ComiqueriaLogic.pdb

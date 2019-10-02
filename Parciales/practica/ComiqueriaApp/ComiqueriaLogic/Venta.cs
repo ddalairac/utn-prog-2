@@ -12,7 +12,7 @@ namespace ComiqueriaLogic
         private Producto producto;
         static Venta()
         {
-            porcentajeIva = 32;
+            //porcentajeIva = 21;
         }
         internal Venta(Producto producto, int cantidad)
         {
@@ -37,14 +37,14 @@ namespace ComiqueriaLogic
             //    vendidos = cantidad - noVendidos;
             //    this.producto.Stock = 0;
             //}
-            this.fecha = DateTime.Today;
+            this.fecha = DateTime.Now;
             this.precioFinal = Venta.CalcularPrecioFinal(this.producto.Precio, vendidos);
 
         }
         public string ObtenerDescripcionBreve()
         {
             StringBuilder str = new StringBuilder();
-            str.Append($"{this.fecha} - ");
+            str.Append($"{this.fecha.Day}/{this.fecha.Month}/{this.fecha.Year} - {this.fecha.Hour}:{this.fecha.Minute} || ");
             str.Append($"{this.producto.Descripcion} - ");
             str.Append($"{this.precioFinal:#,###.00}");
             return str.ToString();
