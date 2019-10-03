@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ComprobantesLogic
 {
-    class Comprobante
+    public class Comprobante
     {
         protected DateTime fechaEmision;
 
