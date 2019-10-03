@@ -34,11 +34,11 @@ namespace ComiqueriaApp
         {
             if (double.TryParse(this.txtNuevoPrecio.Text, out precio))
             {
-                MessageBox.Show("Error en precio, debe ingresar un numero valido", "Error", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 this.producto.Precio = precio;
             }
             else
             {
+                //MessageBox.Show("Error en precio, debe ingresar un numero valido", "Error", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 this.lblError.Text = "Error.Debe ingresar unprecio válido.";
             }
         }

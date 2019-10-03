@@ -45,6 +45,7 @@ namespace ComiqueriaApp
 
             this.listaProductos = this.comiqueria.ListarProductos();
             this.richTextBoxVentas.Text = this.comiqueria.ListarVentas();
+            this.btnModificar.Enabled = false;
         }
 
         /// <summary>
@@ -71,6 +72,11 @@ namespace ComiqueriaApp
             Guid codigoProducto = ((KeyValuePair<Guid,string>)this.listBoxProductos.SelectedItem).Key;
             this.productoSeleccionado = this.comiqueria[codigoProducto];
             this.richTextBoxDetalle.Text = this.productoSeleccionado.ToString();
+
+            if (this.productoSeleccionado != null)
+            {
+                this.btnModificar.Enabled = true;
+            }
         }
 
         /// <summary>
@@ -94,7 +100,11 @@ namespace ComiqueriaApp
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-
+            if(!(this.productoSeleccionado is null))
+            {
+                Form mod = new ModificarProductoForm(this.productoSeleccionado);
+                DialogResult result = mod.ShowDialog();
+            }
         }
     }
 }

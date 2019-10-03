@@ -94,3 +94,4 @@ D:\ddalairac\utn-prog-2\Parciales\practica\ComiqueriaApp - recumeratoria\Comique
 D:\ddalairac\utn-prog-2\Parciales\practica\ComiqueriaApp - recumeratoria\ComiqueriaApp\bin\Debug\ComprobantesLogic.pdb
 D:\ddalairac\utn-prog-2\Parciales\practica\ComiqueriaApp - recumeratoria\ComiqueriaApp\bin\Debug\ComprobantesLogic.exe.config
 D:\ddalairac\utn-prog-2\Parciales\practica\ComiqueriaApp - recumeratoria\ComiqueriaApp\obj\Debug\ComiqueriaApp.csproj.CopyComplete
+D:\ddalairac\utn-prog-2\Parciales\practica\ComiqueriaApp - recumeratoria\ComiqueriaApp\obj\Debug\ComiqueriaApp.ModificarProductoForm.resources
