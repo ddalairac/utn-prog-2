@@ -1,0 +1,7 @@
+D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio42\bin\Debug\Ejercicio42.exe.config
+D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio42\bin\Debug\Ejercicio42.exe
+D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio42\bin\Debug\Ejercicio42.pdb
+D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio42\obj\Debug\Ejercicio42.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio42\obj\Debug\Ejercicio42.exe
+D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio42\obj\Debug\Ejercicio42.pdb
+D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio42\obj\Debug\Ejercicio42.csprojAssemblyReference.cache
