@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entidades;
 
 namespace VistaConsola
 {
@@ -43,18 +44,18 @@ namespace VistaConsola
             e += a2;
             e += m3;
             Console.WriteLine((string)e);
-            Console.WriteLine("--------------------------------");
-            Console.WriteLine("--------------------------------");
-            Console.WriteLine("Estacionamiento Egreso");
-            Console.WriteLine(e - m1);
-            Console.WriteLine(e - p1);
-            Console.WriteLine(e - a1);
-            Console.WriteLine(e - m2);
-            Console.WriteLine(e - p2);
-            Console.WriteLine(e - a2);
-            Console.WriteLine(e - m3);
-            Console.WriteLine("--------------------------------");
-            Console.WriteLine((string)e);
+            //Console.WriteLine("--------------------------------");
+            //Console.WriteLine("--------------------------------");
+            //Console.WriteLine("Estacionamiento Egreso");
+            //Console.WriteLine(e - m1);
+            //Console.WriteLine(e - p1);
+            //Console.WriteLine(e - a1);
+            //Console.WriteLine(e - m2);
+            //Console.WriteLine(e - p2);
+            //Console.WriteLine(e - a2);
+            //Console.WriteLine(e - m3);
+            //Console.WriteLine("--------------------------------");
+            //Console.WriteLine((string)e);
             Console.ReadKey();
         }
     }
