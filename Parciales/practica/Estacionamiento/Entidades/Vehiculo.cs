@@ -49,16 +49,16 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"Ingreso: {this.ingreso:d dd ddd dddd hh}");
-            sb.Append($"Patente: {this.ToString()}");
+            sb.Append(this.ToString());
             return sb.ToString();
         }
         public override string ToString()
         {
-            return string.Format("Patente {0}", this.patente);
+            return string.Format("Patente: {0}", this.patente);
         }
         public override bool Equals(Object obj)
         {
-            if (!(obj is null) && obj is Vehiculo && ((Vehiculo)obj) == this)
+            if (!(obj is null) && obj is Vehiculo)
             {
                 return true;
             }
@@ -72,8 +72,8 @@ namespace Entidades
         #region Operadores
         public static bool operator ==(Vehiculo v1, Vehiculo v2)
         {
-            bool aux = true;
-            if(!(v1 is null) && !(v2 is null) && v1.Equals(v2) && v1.Patente == v2.Patente)
+            bool aux = false;
+            if (!(v1 is null) && !(v2 is null) && v1.Equals(v2) && v1.Patente == v2.Patente)
             {
                 aux = true;
             };

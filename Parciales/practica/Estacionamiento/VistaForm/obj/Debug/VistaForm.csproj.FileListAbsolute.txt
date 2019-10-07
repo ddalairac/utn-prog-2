@@ -1,0 +1,14 @@
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaForm\bin\Debug\VistaForm.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaForm\bin\Debug\VistaForm.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaForm\bin\Debug\VistaForm.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaForm\bin\Debug\Entidades.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaForm\bin\Debug\Entidades.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaForm\bin\Debug\Entidades.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaForm\obj\Debug\VistaForm.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaForm\obj\Debug\VistaForm.Form1.resources
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaForm\obj\Debug\VistaForm.Properties.Resources.resources
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaForm\obj\Debug\VistaForm.csproj.GenerateResource.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaForm\obj\Debug\VistaForm.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaForm\obj\Debug\VistaForm.csproj.CopyComplete
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaForm\obj\Debug\VistaForm.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaForm\obj\Debug\VistaForm.pdb

@@ -32,7 +32,7 @@ namespace VistaConsola
             Console.WriteLine(a2.ConsultarDatos());
             Console.WriteLine("--------------------------------");
             Console.WriteLine("--------------------------------");
-            Console.WriteLine("Estacionamiento Ingreso");
+            Console.WriteLine("**** Estacionamiento Ingreso **** ");
             e += m1;
             e += p1;
             e += a1;
@@ -43,19 +43,20 @@ namespace VistaConsola
             e += p2;
             e += a2;
             e += m3;
+            Console.WriteLine("--------------------------------");
             Console.WriteLine((string)e);
-            //Console.WriteLine("--------------------------------");
-            //Console.WriteLine("--------------------------------");
-            //Console.WriteLine("Estacionamiento Egreso");
-            //Console.WriteLine(e - m1);
-            //Console.WriteLine(e - p1);
-            //Console.WriteLine(e - a1);
-            //Console.WriteLine(e - m2);
-            //Console.WriteLine(e - p2);
-            //Console.WriteLine(e - a2);
-            //Console.WriteLine(e - m3);
-            //Console.WriteLine("--------------------------------");
-            //Console.WriteLine((string)e);
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("**** Estacionamiento Egreso ****\n");
+            Console.WriteLine(e - m1);
+            Console.WriteLine(e - p1);
+            Console.WriteLine(e - a1);
+            Console.WriteLine(e - m2);
+            Console.WriteLine(e - p2);
+            Console.WriteLine(e - a2);
+            Console.WriteLine(e - m3);
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine((string)e);
             Console.ReadKey();
         }
     }

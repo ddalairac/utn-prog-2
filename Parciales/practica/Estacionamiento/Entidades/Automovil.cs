@@ -11,7 +11,7 @@ Clase Automovil:
 namespace Entidades
 {
     public class Automovil : Vehiculo
-    { 
+    {
         private ConsoleColor color;
         private int valorHora;
 
@@ -45,13 +45,14 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
             sb.Append(this.ConsultarDatos());
-            sb.AppendLine($"Estadia: {DateTime.Now - base.ingreso: hh}");
+            TimeSpan estadia = DateTime.Now - base.ingreso;
+            sb.AppendLine($"Estadia: {estadia.Hours} horas");
             return sb.ToString();
         }
         #endregion
         public override bool Equals(Object obj)
         {
-            if (!(obj is null) && obj is Automovil && ((Automovil)obj) == this)
+            if (!(obj is null) && obj is Automovil)
             {
                 return true;
             }

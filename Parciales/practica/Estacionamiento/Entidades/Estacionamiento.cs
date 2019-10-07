@@ -38,7 +38,19 @@ namespace Entidades
         #region Operadores
         public static explicit operator string(Estacionamiento e)
         {
-            return "";
+            StringBuilder sb = new StringBuilder("*** ESTACIONAMIENTO LISTA ***\n");
+            if (!(e is null) && e.vehiculos.Count > 0)
+            {
+                sb.AppendLine($"Cantidad de Vehiculos: {e.vehiculos.Count}\n");
+                foreach (Vehiculo v in e.vehiculos)
+                {
+                    sb.AppendLine(v.ConsultarDatos());
+                }
+            } else
+            {
+                sb.AppendLine($"No hay vehiculos en el estacionamiento \n");
+            }
+            return sb.ToString();
         }
         public static bool operator ==(Estacionamiento e, Vehiculo v)
         {
@@ -77,14 +89,18 @@ namespace Entidades
             StringBuilder sb = new StringBuilder();
             if (!(e is null) && !(v is null))
             {
+
                 if (e == v)
                 {
+                    sb.AppendLine("SALE:");
                     sb.Append(v.ImprimirTicket());
                     e.vehiculos.Remove(v);
+
+                    sb.AppendLine($"Quedan: {e.vehiculos.Count} vehiculos");
                 }
                 else
                 {
-                    sb.Append("El vehículo no es parte del estacionamiento");
+                    sb.AppendLine("El vehículo no es parte del estacionamiento");
                 }
             }
 
