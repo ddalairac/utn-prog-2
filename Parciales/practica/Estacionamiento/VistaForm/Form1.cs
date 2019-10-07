@@ -21,7 +21,7 @@ namespace VistaForm
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            this.button1.Enabled = false;
         }
 
         private void Button1_Click(object sender, EventArgs e)

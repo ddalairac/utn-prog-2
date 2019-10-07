@@ -1,11 +1,11 @@
 C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaConsola\bin\Debug\VistaConsola.exe.config
 C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaConsola\bin\Debug\VistaConsola.exe
 C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaConsola\bin\Debug\VistaConsola.pdb
-C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaConsola\bin\Debug\Entidades.exe
 C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaConsola\bin\Debug\Entidades.pdb
-C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaConsola\bin\Debug\Entidades.exe.config
 C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaConsola\obj\Debug\VistaConsola.csprojAssemblyReference.cache
 C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaConsola\obj\Debug\VistaConsola.csproj.CoreCompileInputs.cache
 C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaConsola\obj\Debug\VistaConsola.csproj.CopyComplete
 C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaConsola\obj\Debug\VistaConsola.exe
 C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaConsola\obj\Debug\VistaConsola.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaConsola\bin\Debug\Entidades.dll
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\Estacionamiento\VistaConsola\bin\Debug\Entidades.dll.config
