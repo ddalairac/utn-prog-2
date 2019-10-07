@@ -84,7 +84,7 @@ namespace ComiqueriaApp
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void OnVenderClick(object sender, EventArgs e)
+        private void BtnVender_Click(object sender, EventArgs e)
         {
             //Si el constructor tiene parámetros de entrada proporcionarle los argumentos que correspondan.
             //El campo "productoSeleccionado" contiene el producto actualmente seleccionado en el listBox de productos. 
@@ -98,13 +98,20 @@ namespace ComiqueriaApp
             }
         }
 
+
         private void btnModificar_Click(object sender, EventArgs e)
         {
             if(!(this.productoSeleccionado is null))
             {
                 Form mod = new ModificarProductoForm(this.productoSeleccionado);
                 DialogResult result = mod.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    this.richTextBoxVentas.Text = this.comiqueria.ListarVentas();
+                    this.richTextBoxDetalle.Text = this.productoSeleccionado.ToString();
+                }
             }
         }
+
     }
 }

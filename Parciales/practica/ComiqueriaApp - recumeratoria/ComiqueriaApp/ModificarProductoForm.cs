@@ -35,6 +35,7 @@ namespace ComiqueriaApp
             if (double.TryParse(this.txtNuevoPrecio.Text, out precio))
             {
                 this.producto.Precio = precio;
+                this.DialogResult = DialogResult.OK;
             }
             else
             {

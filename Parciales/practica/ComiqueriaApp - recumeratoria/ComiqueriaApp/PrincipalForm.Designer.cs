@@ -31,11 +31,11 @@
             this.listBoxProductos = new System.Windows.Forms.ListBox();
             this.richTextBoxVentas = new System.Windows.Forms.RichTextBox();
             this.groupBoxAcciones = new System.Windows.Forms.GroupBox();
+            this.btnModificar = new System.Windows.Forms.Button();
             this.btnVender = new System.Windows.Forms.Button();
             this.richTextBoxDetalle = new System.Windows.Forms.RichTextBox();
             this.lblVentas = new System.Windows.Forms.Label();
             this.lblProductos = new System.Windows.Forms.Label();
-            this.btnModificar = new System.Windows.Forms.Button();
             this.groupBoxAcciones.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,6 +70,16 @@
             this.groupBoxAcciones.TabStop = false;
             this.groupBoxAcciones.Text = "Acciones";
             // 
+            // btnModificar
+            // 
+            this.btnModificar.Location = new System.Drawing.Point(101, 34);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(75, 23);
+            this.btnModificar.TabIndex = 1;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
+            // 
             // btnVender
             // 
             this.btnVender.Location = new System.Drawing.Point(20, 34);
@@ -78,6 +88,7 @@
             this.btnVender.TabIndex = 0;
             this.btnVender.Text = "Vender";
             this.btnVender.UseVisualStyleBackColor = true;
+            this.btnVender.Click += new System.EventHandler(this.BtnVender_Click);
             // 
             // richTextBoxDetalle
             // 
@@ -106,16 +117,6 @@
             this.lblProductos.Size = new System.Drawing.Size(117, 13);
             this.lblProductos.TabIndex = 5;
             this.lblProductos.Text = "Lista de Productos:";
-            // 
-            // btnModificar
-            // 
-            this.btnModificar.Location = new System.Drawing.Point(101, 34);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(75, 23);
-            this.btnModificar.TabIndex = 1;
-            this.btnModificar.Text = "Modificar";
-            this.btnModificar.UseVisualStyleBackColor = true;
-            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // PrincipalForm
             // 

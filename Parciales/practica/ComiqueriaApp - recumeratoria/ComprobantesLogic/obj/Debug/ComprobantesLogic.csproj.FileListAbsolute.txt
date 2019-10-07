@@ -5,3 +5,10 @@ D:\ddalairac\utn-prog-2\Parciales\practica\ComiqueriaApp - recumeratoria\Comprob
 D:\ddalairac\utn-prog-2\Parciales\practica\ComiqueriaApp - recumeratoria\ComprobantesLogic\obj\Debug\ComprobantesLogic.exe
 D:\ddalairac\utn-prog-2\Parciales\practica\ComiqueriaApp - recumeratoria\ComprobantesLogic\obj\Debug\ComprobantesLogic.pdb
 D:\ddalairac\utn-prog-2\Parciales\practica\ComiqueriaApp - recumeratoria\ComprobantesLogic\obj\Debug\ComprobantesLogic.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp - recumeratoria\ComprobantesLogic\bin\Debug\ComprobantesLogic.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp - recumeratoria\ComprobantesLogic\bin\Debug\ComprobantesLogic.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp - recumeratoria\ComprobantesLogic\bin\Debug\ComprobantesLogic.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp - recumeratoria\ComprobantesLogic\obj\Debug\ComprobantesLogic.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp - recumeratoria\ComprobantesLogic\obj\Debug\ComprobantesLogic.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp - recumeratoria\ComprobantesLogic\obj\Debug\ComprobantesLogic.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\ComiqueriaApp - recumeratoria\ComprobantesLogic\obj\Debug\ComprobantesLogic.pdb
