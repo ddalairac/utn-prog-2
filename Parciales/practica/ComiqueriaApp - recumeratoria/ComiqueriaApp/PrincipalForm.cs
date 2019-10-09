@@ -109,7 +109,7 @@ namespace ComiqueriaApp
                 {
                     this.richTextBoxVentas.Text = this.comiqueria.ListarVentas();
                     this.richTextBoxDetalle.Text = this.productoSeleccionado.ToString();
-                }
+                //}
             }
         }
 
