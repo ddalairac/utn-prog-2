@@ -1,0 +1,7 @@
+D:\ddalairac\utn-prog-2\Parciales\Dalairac.Diego.2019\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\ddalairac\utn-prog-2\Parciales\Dalairac.Diego.2019\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Parciales\Dalairac.Diego.2019\Entidades\bin\Debug\Entidades.exe.config
+D:\ddalairac\utn-prog-2\Parciales\Dalairac.Diego.2019\Entidades\bin\Debug\Entidades.exe
+D:\ddalairac\utn-prog-2\Parciales\Dalairac.Diego.2019\Entidades\bin\Debug\Entidades.pdb
+D:\ddalairac\utn-prog-2\Parciales\Dalairac.Diego.2019\Entidades\obj\Debug\Entidades.exe
+D:\ddalairac\utn-prog-2\Parciales\Dalairac.Diego.2019\Entidades\obj\Debug\Entidades.pdb
