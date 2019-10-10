@@ -1,0 +1,14 @@
+C:\Users\diego\source\repos\SistemaSolar\FormParcial\obj\Debug\FormParcial.csprojAssemblyReference.cache
+C:\Users\diego\source\repos\SistemaSolar\FormParcial\obj\Debug\FormParcial.Form1.resources
+C:\Users\diego\source\repos\SistemaSolar\FormParcial\obj\Debug\FormParcial.Properties.Resources.resources
+C:\Users\diego\source\repos\SistemaSolar\FormParcial\obj\Debug\FormParcial.csproj.GenerateResource.cache
+C:\Users\diego\source\repos\SistemaSolar\FormParcial\obj\Debug\FormParcial.csproj.CoreCompileInputs.cache
+C:\Users\diego\source\repos\SistemaSolar\FormParcial\bin\Debug\FormParcial.exe.config
+C:\Users\diego\source\repos\SistemaSolar\FormParcial\bin\Debug\FormParcial.exe
+C:\Users\diego\source\repos\SistemaSolar\FormParcial\bin\Debug\FormParcial.pdb
+C:\Users\diego\source\repos\SistemaSolar\FormParcial\bin\Debug\Entidades.exe
+C:\Users\diego\source\repos\SistemaSolar\FormParcial\bin\Debug\Entidades.pdb
+C:\Users\diego\source\repos\SistemaSolar\FormParcial\bin\Debug\Entidades.exe.config
+C:\Users\diego\source\repos\SistemaSolar\FormParcial\obj\Debug\FormParcial.csproj.CopyComplete
+C:\Users\diego\source\repos\SistemaSolar\FormParcial\obj\Debug\FormParcial.exe
+C:\Users\diego\source\repos\SistemaSolar\FormParcial\obj\Debug\FormParcial.pdb
