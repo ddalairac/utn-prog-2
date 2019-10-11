@@ -1,0 +1,16 @@
+D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\FrmCantina\bin\Debug\FrmCantina.exe.config
+D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\FrmCantina\bin\Debug\FrmCantina.exe
+D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\FrmCantina\bin\Debug\FrmCantina.pdb
+D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\FrmCantina\bin\Debug\Entidades.pdb
+D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\FrmCantina\obj\Debug\FrmCantina.csprojAssemblyReference.cache
+D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\FrmCantina\obj\Debug\FrmCantina.Form1.resources
+D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\FrmCantina\obj\Debug\FrmCantina.Properties.Resources.resources
+D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\FrmCantina\obj\Debug\FrmCantina.csproj.GenerateResource.cache
+D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\FrmCantina\obj\Debug\FrmCantina.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\FrmCantina\obj\Debug\FrmCantina.csproj.CopyComplete
+D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\FrmCantina\obj\Debug\FrmCantina.exe
+D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\FrmCantina\obj\Debug\FrmCantina.pdb
+D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\FrmCantina\bin\Debug\Entidades.dll
+D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\FrmCantina\bin\Debug\Entidades.dll.config
+D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\FrmCantina\bin\Debug\ControlesUsuario.dll
+D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\FrmCantina\bin\Debug\ControlesUsuario.pdb
