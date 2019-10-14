@@ -5,3 +5,10 @@ D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio42\obj\Debug\Ejercicio42.csproj.Core
 D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio42\obj\Debug\Ejercicio42.exe
 D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio42\obj\Debug\Ejercicio42.pdb
 D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio42\obj\Debug\Ejercicio42.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio42\bin\Debug\Ejercicio42.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio42\bin\Debug\Ejercicio42.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio42\bin\Debug\Ejercicio42.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio42\obj\Debug\Ejercicio42.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio42\obj\Debug\Ejercicio42.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio42\obj\Debug\Ejercicio42.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio42\obj\Debug\Ejercicio42.pdb

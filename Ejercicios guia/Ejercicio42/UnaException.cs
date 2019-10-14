@@ -9,8 +9,9 @@ namespace Ejercicio42
     public class UnaException:Exception
     {
         public string message;
-        public UnaException(string message, Exception e ) :base(e)
-        {
-        }
+        public UnaException(string message)
+            : base($"Custom Exp: {message}") { }
+        public UnaException(string message, Exception innerException) 
+            :base($"Custom Exp: {message}", innerException){ }
     }
 }

@@ -7,8 +7,6 @@ using System.Threading.Tasks;
 a. Crear una clase llamada MiClase y dentro colocar un método estático, otro de instancia y 2
 constructores de instancia.
 
-
-
 e. Luego crear un método de instancia que capture la excepción anterior. Este método
 generará una excepción propia llamada MiException y la lanzará.
 
@@ -19,7 +17,6 @@ namespace Ejercicio42
 {
     public class MiClase
     {
-
         // b. Dentro del método estático lanzar una excepción DivideByZeroException (sólo lanzarla).
         public static bool McStatic(int num)
         {
@@ -39,31 +36,25 @@ namespace Ejercicio42
             catch (DivideByZeroException e)
             {
                 Console.WriteLine($"Catch DivideByZeroException \n\n{e}\n\n");
-                //throw new UnaException("un mensaje", e);
             }
-            catch (Exception e){  Console.WriteLine($"Catch Exception  GENERAL \n\n{e}\n\n");  }
+            //catch (Exception e) { Console.WriteLine($"Catch Exception  GENERAL \n\n{e}\n\n"); }
 
             Console.WriteLine("Despues del Try catch \n");
         }
 
         /* d. En este segundo constructor, crear una excepción propia llamada UnaException (utilizar
               innerException para almacenar la excepción original) y volver a lanzarla.*/
-        public MiClase():this(0)
+        public MiClase() : this(0)
         {
             try
             {
-                MiClase.McStatic(1);
+                throw new UnaException("un mensaje");
             }
-            catch (DivideByZeroException e)
+            catch (UnaException e)
             {
                 Console.WriteLine($"Catch Segundo constructor UnaException \n\n{e}\n\n");
             }
-            catch (Exception e)
-            {
-                Console.WriteLine($"Catch Segundo constructor Exception GENERAL \n\n{e}\n\n");
-                /*throw new Exception("un mensaje");*/
-    }
-}
+        }
         public bool McInstance(int num)
         {
             return false;
