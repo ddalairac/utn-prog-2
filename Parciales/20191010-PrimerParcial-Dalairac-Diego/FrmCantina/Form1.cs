@@ -23,8 +23,9 @@ namespace FrmCantina
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.numCapacidad.Text = "10000";
-            this.numContenido.Text = "10000";
+            this.numCapacidad.Value = 1000;
+            this.numContenido.Value = 1000;
+            this.txtMarca.Text = "";
             comboTipo.DataSource = Enum.GetValues(typeof(Botella.Tipo));
 
         }

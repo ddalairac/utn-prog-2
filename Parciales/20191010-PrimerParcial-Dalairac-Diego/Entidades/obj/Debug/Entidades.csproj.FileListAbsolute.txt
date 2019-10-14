@@ -5,3 +5,10 @@ D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\Entidade
 D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\Entidades\bin\Debug\Entidades.dll.config
 D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\Entidades\bin\Debug\Entidades.dll
 D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\Entidades\obj\Debug\Entidades.dll
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\Entidades\bin\Debug\Entidades.dll
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\Entidades\bin\Debug\Entidades.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\Entidades\obj\Debug\Entidades.dll
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\Entidades\obj\Debug\Entidades.pdb

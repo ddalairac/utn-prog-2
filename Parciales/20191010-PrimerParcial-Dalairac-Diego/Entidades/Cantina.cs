@@ -51,6 +51,7 @@ namespace Entidades
             if(!(c is null) && !(b is null) && c.espaciosTotales > 0)
             {
                 c.botellas.Add(b);
+                aux = true;
                 c.espaciosTotales--;
             }
             return aux;

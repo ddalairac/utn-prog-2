@@ -23,3 +23,16 @@ D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\Controle
 D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\ControlesUsuario\bin\Debug\Entidades.pdb
 D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\ControlesUsuario\bin\Debug\Entidades.dll.config
 D:\ddalairac\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\ControlesUsuario\obj\Debug\ControlesUsuario.csproj.CopyComplete
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\ControlesUsuario\bin\Debug\ControlesUsuario.dll
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\ControlesUsuario\bin\Debug\ControlesUsuario.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\ControlesUsuario\bin\Debug\Entidades.dll
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\ControlesUsuario\bin\Debug\Entidades.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\ControlesUsuario\bin\Debug\Entidades.dll.config
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\ControlesUsuario\obj\Debug\ControlesUsuario.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\ControlesUsuario\obj\Debug\ControlCantina.Barra.resources
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\ControlesUsuario\obj\Debug\ControlesUsuario.Properties.Resources.resources
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\ControlesUsuario\obj\Debug\ControlesUsuario.csproj.GenerateResource.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\ControlesUsuario\obj\Debug\ControlesUsuario.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\ControlesUsuario\obj\Debug\ControlesUsuario.csproj.CopyComplete
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\ControlesUsuario\obj\Debug\ControlesUsuario.dll
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\20191010-PrimerParcial-Dalairac-Diego\ControlesUsuario\obj\Debug\ControlesUsuario.pdb
