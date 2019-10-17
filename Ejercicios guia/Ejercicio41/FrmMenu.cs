@@ -40,7 +40,7 @@ namespace Ejercicio41
 
             catch (CentralitaExcepction exep)
             {
-                MessageBox.Show(exep.Message,"Error",  MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{exep.Message}\nClase:{exep.Clase}\nMetodo:{exep.Metodo}","Error",  MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

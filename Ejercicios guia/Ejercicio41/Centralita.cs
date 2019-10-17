@@ -184,7 +184,7 @@ namespace Ejercicio41
             }
             else
             {
-                throw new CentralitaExcepction("Esta llamada ya se encuentra registrada en el sistema");
+                throw new CentralitaExcepction("Esta llamada ya se encuentra registrada en el sistema","Centralita","+");
             }
             return c;
         }
