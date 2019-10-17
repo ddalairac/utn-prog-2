@@ -5,3 +5,10 @@ D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio27\bin\Debug\Ejercicio27.exe
 D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio27\bin\Debug\Ejercicio27.pdb
 D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio27\obj\Debug\Ejercicio27.exe
 D:\ddalairac\utn-prog-2\Ejercicios\Ejercicio27\obj\Debug\Ejercicio27.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio27\bin\Debug\Ejercicio27.exe.config
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio27\bin\Debug\Ejercicio27.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio27\bin\Debug\Ejercicio27.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio27\obj\Debug\Ejercicio27.csprojAssemblyReference.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio27\obj\Debug\Ejercicio27.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio27\obj\Debug\Ejercicio27.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio27\obj\Debug\Ejercicio27.pdb

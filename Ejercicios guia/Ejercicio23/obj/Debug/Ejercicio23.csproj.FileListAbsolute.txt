@@ -24,3 +24,16 @@ C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio23\bin\Debug\Ejerci
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio23\bin\Debug\Ejercicio20.pdb
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio23\bin\Debug\Ejercicio20.exe.config
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio23\obj\Debug\Ejercicio23.csproj.CopyComplete
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio23\bin\Debug\Ejercicio23.exe.config
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio23\bin\Debug\Ejercicio23.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio23\bin\Debug\Ejercicio23.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio23\bin\Debug\Ejercicio20.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio23\bin\Debug\Ejercicio20.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio23\bin\Debug\Ejercicio20.exe.config
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio23\obj\Debug\Ejercicio23.csprojAssemblyReference.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio23\obj\Debug\Ejercicio23.Properties.Resources.resources
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio23\obj\Debug\Ejercicio23.csproj.GenerateResource.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio23\obj\Debug\Ejercicio23.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio23\obj\Debug\Ejercicio23.csproj.CopyComplete
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio23\obj\Debug\Ejercicio23.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio23\obj\Debug\Ejercicio23.pdb

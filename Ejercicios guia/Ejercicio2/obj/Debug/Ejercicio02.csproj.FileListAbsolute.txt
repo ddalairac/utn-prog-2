@@ -12,3 +12,10 @@ C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio2\obj\Debug\Ejercic
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio2\obj\Debug\Ejercicio02.csproj.CoreCompileInputs.cache
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio2\obj\Debug\Ejercicio2.exe
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio2\obj\Debug\Ejercicio2.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio2\bin\Debug\Ejercicio2.exe.config
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio2\bin\Debug\Ejercicio2.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio2\bin\Debug\Ejercicio2.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio2\obj\Debug\Ejercicio02.csprojAssemblyReference.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio2\obj\Debug\Ejercicio02.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio2\obj\Debug\Ejercicio2.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio2\obj\Debug\Ejercicio2.pdb

@@ -11,6 +11,7 @@ namespace Ejercicio42
         public string message;
         public UnaException(string message)
             : base($"Custom Exp: {message}") { }
+
         public UnaException(string message, Exception innerException) 
             :base($"Custom Exp: {message}", innerException){ }
     }

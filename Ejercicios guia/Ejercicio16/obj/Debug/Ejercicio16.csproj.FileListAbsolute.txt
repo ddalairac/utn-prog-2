@@ -19,3 +19,10 @@ C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio16\obj\Debug\Ejerci
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio16\obj\Debug\Ejercicio16.csproj.CoreCompileInputs.cache
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio16\obj\Debug\Ejercicio16.exe
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio16\obj\Debug\Ejercicio16.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio16\bin\Debug\Ejercicio16.exe.config
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio16\bin\Debug\Ejercicio16.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio16\bin\Debug\Ejercicio16.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio16\obj\Debug\Ejercicio16.csprojAssemblyReference.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio16\obj\Debug\Ejercicio16.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio16\obj\Debug\Ejercicio16.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio16\obj\Debug\Ejercicio16.pdb

@@ -10,8 +10,15 @@ namespace Ejercicio42
     {
         static void Main(string[] args)
         {
-            MiClase mc = new MiClase();
+            try
+            {
+                MiClase mc = new MiClase();
+            }
+            catch (Exception e)
+            {
 
+                Console.WriteLine($"Catch externo {e}") ;
+            }
             Console.ReadKey();
         }
     }

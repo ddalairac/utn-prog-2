@@ -5,3 +5,10 @@ C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio29\obj\Debug\Ejerci
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio29\obj\Debug\Ejercicio29.csproj.CoreCompileInputs.cache
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio29\obj\Debug\Ejercicio29.exe
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio29\obj\Debug\Ejercicio29.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio29\bin\Debug\Ejercicio29.exe.config
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio29\bin\Debug\Ejercicio29.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio29\bin\Debug\Ejercicio29.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio29\obj\Debug\Ejercicio29.csprojAssemblyReference.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio29\obj\Debug\Ejercicio29.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio29\obj\Debug\Ejercicio29.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio29\obj\Debug\Ejercicio29.pdb

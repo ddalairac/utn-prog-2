@@ -29,3 +29,19 @@ C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio40_form\obj\Debug\E
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio40_form\obj\Debug\Ejercicio40_form.csproj.CopyComplete
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio40_form\obj\Debug\Ejercicio40_form.exe
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio40_form\obj\Debug\Ejercicio40_form.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio40_form\bin\Debug\Ejercicio40_form.exe.config
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio40_form\bin\Debug\Ejercicio40_form.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio40_form\bin\Debug\Ejercicio40_form.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio40_form\bin\Debug\Ejercicio40.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio40_form\bin\Debug\Ejercicio40.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio40_form\bin\Debug\Ejercicio40.exe.config
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio40_form\obj\Debug\Ejercicio40_form.csprojAssemblyReference.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio40_form\obj\Debug\Ejercicio40_form.FrmLlamador.resources
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio40_form\obj\Debug\Ejercicio40_form.FrmMenu.resources
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio40_form\obj\Debug\Ejercicio40_form.FrmMostrar.resources
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio40_form\obj\Debug\Ejercicio40_form.Properties.Resources.resources
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio40_form\obj\Debug\Ejercicio40_form.csproj.GenerateResource.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio40_form\obj\Debug\Ejercicio40_form.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio40_form\obj\Debug\Ejercicio40_form.csproj.CopyComplete
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio40_form\obj\Debug\Ejercicio40_form.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio40_form\obj\Debug\Ejercicio40_form.pdb

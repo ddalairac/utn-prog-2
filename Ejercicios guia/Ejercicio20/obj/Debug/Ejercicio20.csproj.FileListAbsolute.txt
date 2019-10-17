@@ -18,3 +18,10 @@ D:\ddalairac\Ejercicios\Ejercicios\Ejercicio20\obj\Debug\Ejercicio20.pdb
 D:\ddalairac\Ejercicios\Ejercicios\Ejercicio20\bin\Debug\Ejercicio20.exe.config
 D:\ddalairac\Ejercicios\Ejercicios\Ejercicio20\bin\Debug\Ejercicio20.exe
 D:\ddalairac\Ejercicios\Ejercicios\Ejercicio20\bin\Debug\Ejercicio20.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio20\bin\Debug\Ejercicio20.exe.config
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio20\bin\Debug\Ejercicio20.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio20\bin\Debug\Ejercicio20.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio20\obj\Debug\Ejercicio20.csprojAssemblyReference.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio20\obj\Debug\Ejercicio20.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio20\obj\Debug\Ejercicio20.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio20\obj\Debug\Ejercicio20.pdb

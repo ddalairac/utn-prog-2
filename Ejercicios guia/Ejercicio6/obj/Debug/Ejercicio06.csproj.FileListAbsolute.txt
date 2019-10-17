@@ -11,3 +11,10 @@ C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio6\obj\Debug\Ejercic
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio6\obj\Debug\Ejercicio06.csproj.CoreCompileInputs.cache
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio6\obj\Debug\Ejercicio6.exe
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio6\obj\Debug\Ejercicio6.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio6\bin\Debug\Ejercicio6.exe.config
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio6\bin\Debug\Ejercicio6.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio6\bin\Debug\Ejercicio6.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio6\obj\Debug\Ejercicio06.csprojAssemblyReference.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio6\obj\Debug\Ejercicio06.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio6\obj\Debug\Ejercicio6.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio6\obj\Debug\Ejercicio6.pdb

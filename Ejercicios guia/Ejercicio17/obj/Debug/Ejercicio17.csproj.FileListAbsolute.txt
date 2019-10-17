@@ -4,3 +4,9 @@ C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio17\bin\Debug\Ejerci
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio17\bin\Debug\Ejercicio17.pdb
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio17\obj\Debug\Ejercicio17.exe
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio17\obj\Debug\Ejercicio17.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio17\bin\Debug\Ejercicio17.exe.config
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio17\bin\Debug\Ejercicio17.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio17\bin\Debug\Ejercicio17.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio17\obj\Debug\Ejercicio17.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio17\obj\Debug\Ejercicio17.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio17\obj\Debug\Ejercicio17.pdb

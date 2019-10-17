@@ -22,7 +22,6 @@ namespace Ejercicio42
         {
             Console.WriteLine("Metodo estatico que lanza excepcion \n");
             throw new DivideByZeroException();
-            return false;
         }
 
         /* c. Capturar la excepción del punto a en un constructor de instancia y relanzarla 
@@ -36,6 +35,7 @@ namespace Ejercicio42
             catch (DivideByZeroException e)
             {
                 Console.WriteLine($"Catch DivideByZeroException \n\n{e}\n\n");
+                throw e;
             }
             //catch (Exception e) { Console.WriteLine($"Catch Exception  GENERAL \n\n{e}\n\n"); }
 
@@ -44,15 +44,16 @@ namespace Ejercicio42
 
         /* d. En este segundo constructor, crear una excepción propia llamada UnaException (utilizar
               innerException para almacenar la excepción original) y volver a lanzarla.*/
-        public MiClase() : this(0)
+        public MiClase() //: this(0)
         {
             try
             {
-                throw new UnaException("un mensaje");
+                new MiClase(9);
             }
-            catch (UnaException e)
+            catch (DivideByZeroException e)
             {
                 Console.WriteLine($"Catch Segundo constructor UnaException \n\n{e}\n\n");
+                throw new UnaException("un mensaje", e);
             }
         }
         public bool McInstance(int num)

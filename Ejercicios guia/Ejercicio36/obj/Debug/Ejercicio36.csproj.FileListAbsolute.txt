@@ -5,3 +5,10 @@ C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio36\obj\Debug\Ejerci
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio36\obj\Debug\Ejercicio36.csproj.CoreCompileInputs.cache
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio36\obj\Debug\Ejercicio36.exe
 C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios\Ejercicio36\obj\Debug\Ejercicio36.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio36\bin\Debug\Ejercicio36.exe.config
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio36\bin\Debug\Ejercicio36.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio36\bin\Debug\Ejercicio36.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio36\obj\Debug\Ejercicio36.csprojAssemblyReference.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio36\obj\Debug\Ejercicio36.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio36\obj\Debug\Ejercicio36.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio36\obj\Debug\Ejercicio36.pdb
