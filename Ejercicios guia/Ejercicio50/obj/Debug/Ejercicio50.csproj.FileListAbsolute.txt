@@ -1,0 +1,7 @@
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio50\bin\Debug\Ejercicio50.exe.config
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio50\bin\Debug\Ejercicio50.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio50\bin\Debug\Ejercicio50.pdb
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio50\obj\Debug\Ejercicio50.csprojAssemblyReference.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio50\obj\Debug\Ejercicio50.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio50\obj\Debug\Ejercicio50.exe
+D:\ddalairac\utn-prog-2\Ejercicios guia\Ejercicio50\obj\Debug\Ejercicio50.pdb
