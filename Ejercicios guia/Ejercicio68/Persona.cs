@@ -20,14 +20,14 @@ namespace Ejercicio68
             get { return nombre; }
             set { nombre = value; }
         }
-        public string Appelido
+        public string Apellido
         {
             get { return apellido; }
             set { apellido = value; }
         }
         public string Mostrar()
         {
-            return "";
+            return $"Nombre: {this.Nombre} - Apellido:{this.Apellido}";
         }
         public event DelegadoString eventoString;
     }

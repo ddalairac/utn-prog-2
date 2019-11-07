@@ -16,6 +16,7 @@ namespace Ejercicio68
         {
             InitializeComponent();
         }
+        Persona persona;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -24,7 +25,13 @@ namespace Ejercicio68
 
         private void buttonCrear_Click(object sender, EventArgs e)
         {
-
+            if(this.persona is null)
+            {
+                this.persona = new Persona();
+                persona.Nombre = textNombre.Text;
+                persona.Apellido = textApellido.Text;
+                this.NotificarCambio(persona.Mostrar());
+            }
         }
         public void NotificarCambio(string msj)
         {
