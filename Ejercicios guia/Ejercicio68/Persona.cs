@@ -13,17 +13,32 @@ namespace Ejercicio68
 
         public Persona()
         {
-
+            this.nombre = "";
+            this.apellido = "";
         }
         public string Nombre
         {
-            get { return nombre; }
-            set { nombre = value; }
+            get { return this.nombre; }
+            set
+            {
+                if (value != "")
+                {
+                    this.nombre = value;
+                    this.eventoString.Invoke($"nuevo nombre: {this.nombre}");
+                }
+            }
         }
         public string Apellido
         {
-            get { return apellido; }
-            set { apellido = value; }
+            get { return this.apellido; }
+            set
+            {
+                if (value != "")
+                {
+                    this.apellido = value;
+                    this.eventoString.Invoke($"nuevo apellido: {this.apellido}");
+                }
+            }
         }
         public string Mostrar()
         {

@@ -21,16 +21,17 @@ namespace Ejercicio68
         private void Form1_Load(object sender, EventArgs e)
         {
 
+
         }
 
         private void buttonCrear_Click(object sender, EventArgs e)
         {
-            if(this.persona is null)
+            if (this.persona is null)
             {
                 this.persona = new Persona();
+                persona.eventoString += this.NotificarCambio;
                 persona.Nombre = textNombre.Text;
                 persona.Apellido = textApellido.Text;
-                this.NotificarCambio(persona.Mostrar());
             }
         }
         public void NotificarCambio(string msj)
