@@ -1,0 +1,10 @@
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio63\bin\Debug\Ejercicio63.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio63\bin\Debug\Ejercicio63.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio63\bin\Debug\Ejercicio63.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio63\obj\Debug\Ejercicio63.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio63\obj\Debug\Ejercicio63.Form1.resources
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio63\obj\Debug\Ejercicio63.Properties.Resources.resources
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio63\obj\Debug\Ejercicio63.csproj.GenerateResource.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio63\obj\Debug\Ejercicio63.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio63\obj\Debug\Ejercicio63.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio63\obj\Debug\Ejercicio63.pdb
