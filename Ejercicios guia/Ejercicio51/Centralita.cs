@@ -169,10 +169,10 @@ namespace Ejercicio51
             throw new NotImplementedException();
         }
 
-        public static bool operator ==(Centralita c, Llamada l)
+        public static bool operator ==(Centralita<T> c, Llamada l)
         {
             bool rta = false;
-            if (!(l is null) && !(c is null) && l is Llamada && c is Centralita)
+            if (!(l is null) && !(c is null) && l is Llamada && c is Centralita<T>)
             {
                 foreach (Llamada aux in c.Llamadas)
                 {
@@ -185,11 +185,11 @@ namespace Ejercicio51
             }
             return rta;
         }
-        public static bool operator !=(Centralita c, Llamada l)
+        public static bool operator !=(Centralita<T> c, Llamada l)
         {
             return !(c == l);
         }
-        public static Centralita operator +(Centralita c, Llamada l)
+        public static Centralita<T> operator +(Centralita<T> c, Llamada l)
         {
             
             if(c != l)
