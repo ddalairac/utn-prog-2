@@ -1,0 +1,7 @@
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio64\bin\Debug\Ejercicio64.exe.config
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio64\bin\Debug\Ejercicio64.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio64\bin\Debug\Ejercicio64.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio64\obj\Debug\Ejercicio64.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio64\obj\Debug\Ejercicio64.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio64\obj\Debug\Ejercicio64.exe
+C:\Users\diego\Documents\Code\utn-prog-2\Ejercicios guia\Ejercicio64\obj\Debug\Ejercicio64.pdb
