@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -51,7 +52,7 @@ namespace _20180628_SP.v1
         {
             if (this.groupBox2.InvokeRequired)
             {
-                Votacion.NOMBRE_EVENTO recall = new Votacion.NOMBRE_EVENTO(this.ManejadorVoto);
+                Votacion.Voto recall = new Votacion.Voto(this.ManejadorVoto);
                 this.Invoke(recall, new object[] { senador, voto });
             }
             else
@@ -101,14 +102,17 @@ namespace _20180628_SP.v1
 
             // Reseteo de la votación
             foreach (PictureBox p in this.graficos)
-                p.BackColor = Color.White;
+            p.BackColor = Color.White;
             lblAfirmativo.Text = "0";
             lblNegativo.Text = "0";
             lblAbstenciones.Text = "0";
 
             // EVENTO
+            votacion.EventoVotoEfectuado += this.ManejadorVoto;
 
             // THREAD
+            Thread tSimular = new Thread(votacion.Simular);
+            tSimular.Start();
 
         }
 

@@ -8,12 +8,12 @@ using System.Xml.Serialization;
 
 namespace Entidades
 {
-    public delegate void Voto();
+    
 
     public class Votacion
     {
-
-        public static event Voto NOMBRE_EVENTO;
+        public delegate void Voto(string senador, Votacion.EVoto voto);
+        public event Voto EventoVotoEfectuado;
 
         public enum EVoto { Afirmativo, Negativo, Abstencion, Esperando }
 
@@ -24,8 +24,7 @@ namespace Entidades
         private short contadorNegativo;
         private short contadorAbstencion;
 
-
-
+        
         public Votacion(string nombreLey, Dictionary<string, EVoto> senadores)
         {
             this.nombreLey = nombreLey;
@@ -49,11 +48,24 @@ namespace Entidades
                 // Generador de número aleatorio
                 Random r = new Random(k.Key.ToString().Length + DateTime.Now.Millisecond);
                 // Modifico el voto de forma aleatoria
+                
                 this.senadores[k.Key] = (EVoto)r.Next(0, 3);
 
                 // Invocar Evento
+                this.EventoVotoEfectuado.Invoke(k.Key, this.senadores[k.Key]);
 
                 // Incrementar contadores
+                switch (k.Value){
+                    case EVoto.Abstencion:
+                        this.contadorAbstencion++;
+                        break;
+                    case EVoto.Afirmativo:
+                        this.contadorAfirmativo++;
+                        break;
+                    case EVoto.Negativo:
+                        this.contadorNegativo++;
+                        break;
+                }
 
             }
         }
@@ -71,7 +83,7 @@ namespace Entidades
             }
             catch (Exception e)
             {
-                throw new Excepciones.ArchivosException(e);
+                throw new Excepciones.ErrorArchivoException(e);
             }
         }
     }

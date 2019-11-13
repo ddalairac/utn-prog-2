@@ -1,0 +1,6 @@
+D:\ddalairac\utn-prog-2\Parciales\practica\20180628 - SP Lab II\20180628-SP - Alumno\Excepciones\bin\Debug\Excepciones.dll
+D:\ddalairac\utn-prog-2\Parciales\practica\20180628 - SP Lab II\20180628-SP - Alumno\Excepciones\bin\Debug\Excepciones.pdb
+D:\ddalairac\utn-prog-2\Parciales\practica\20180628 - SP Lab II\20180628-SP - Alumno\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+D:\ddalairac\utn-prog-2\Parciales\practica\20180628 - SP Lab II\20180628-SP - Alumno\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Parciales\practica\20180628 - SP Lab II\20180628-SP - Alumno\Excepciones\obj\Debug\Excepciones.dll
+D:\ddalairac\utn-prog-2\Parciales\practica\20180628 - SP Lab II\20180628-SP - Alumno\Excepciones\obj\Debug\Excepciones.pdb
