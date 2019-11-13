@@ -34,10 +34,13 @@ namespace Ejercicio64
             n.AsignarCaja();
             //n.Caja1.AtenderClientes();
             //n.Caja2.AtenderClientes();
+
+            //Join
             Thread tAsignar = new Thread(n.AsignarCaja);
             Thread tC1 = new Thread(n.Caja1.AtenderClientes);
             Thread tC2 = new Thread(n.Caja2.AtenderClientes);
-            //tAsignar.Start();
+            tAsignar.Start();
+            tAsignar.Join();
             tC1.Start();
             tC2.Start();
 
