@@ -48,17 +48,11 @@ namespace UnitTests
         {
             // arrange
             Votacion v;
-            //short contadorAfirmativo = 25;
-            //short contadorNegativo = 25;
-            //short contadorAbstencion = 21;
             SerializarXML<Votacion> xml;
             string archivo = "../../../../../" + Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "Votacion-test.xml");
 
             // act
             v = new Votacion("ley", new Dictionary<string, Votacion.EVoto>());
-            //v.ContadorAbstencion = contadorAbstencion;
-            //v.ContadorAfirmativo = contadorAfirmativo;
-            //v.ContadorNegativo = contadorNegativo;
 
             xml = new SerializarXML<Votacion>();
             xml.Guardar(archivo, v);
