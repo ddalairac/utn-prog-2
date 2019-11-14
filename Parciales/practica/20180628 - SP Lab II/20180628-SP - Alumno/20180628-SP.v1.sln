@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Enti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excepciones", "Excepciones\Excepciones.csproj", "{7B718E3E-79B9-4246-ADC3-BA36849A83DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{476B8FF4-8EFA-4E76-8AF3-54AEFC3F4D30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7B718E3E-79B9-4246-ADC3-BA36849A83DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B718E3E-79B9-4246-ADC3-BA36849A83DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B718E3E-79B9-4246-ADC3-BA36849A83DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{476B8FF4-8EFA-4E76-8AF3-54AEFC3F4D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{476B8FF4-8EFA-4E76-8AF3-54AEFC3F4D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{476B8FF4-8EFA-4E76-8AF3-54AEFC3F4D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{476B8FF4-8EFA-4E76-8AF3-54AEFC3F4D30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -106,6 +106,15 @@ namespace _20180628_SP.v1
                     {
                         MessageBox.Show(e.Message, "Error inesperado");
                     }
+                    try
+                    {
+                        Dao db = new Dao();
+                        db.Guardar("", this.votacion);
+                    }
+                    catch (Exception e)
+                    {
+                        MessageBox.Show(e.Message, "Error Guardando DB");
+                    }
                 }
             }
         }
