@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dao.cs" />
     <Compile Include="IArchivos.cs" />
     <Compile Include="Votacion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
