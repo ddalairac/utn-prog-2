@@ -8,8 +8,10 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Excepciones;
 
 using Entidades;
+using System.IO;
 
 namespace _20180628_SP.v1
 {
@@ -18,6 +20,7 @@ namespace _20180628_SP.v1
         Votacion votacion;
         Dictionary<string, Votacion.EVoto> participantes;
         List<PictureBox> graficos;
+        Thread tSimular;
 
         public FrmSenadores()
         {
@@ -88,7 +91,21 @@ namespace _20180628_SP.v1
                 {
                     MessageBox.Show((int.Parse(lblAfirmativo.Text) - int.Parse(lblNegativo.Text)) > 0 ? "Es Ley" : "No es Ley", txtLeyNombre.Text);
                     // Guardar resultados
-
+                    try
+                    {
+                        SerializarXML<Votacion> xml = new SerializarXML<Votacion>();
+                        string archivo = Path.Combine( Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "Votacion.xml");
+                        //MessageBox.Show(archivo, "archivo");
+                        xml.Guardar(archivo, this.votacion);
+                    }
+                    catch (ErrorArchivoException e)
+                    {
+                        MessageBox.Show(e.Message , "Error Archivo");
+                    }
+                    catch (Exception e)
+                    {
+                        MessageBox.Show(e.Message, "Error inesperado");
+                    }
                 }
             }
         }
@@ -111,7 +128,7 @@ namespace _20180628_SP.v1
             votacion.EventoVotoEfectuado += this.ManejadorVoto;
 
             // THREAD
-            Thread tSimular = new Thread(votacion.Simular);
+            tSimular = new Thread(votacion.Simular);
             tSimular.Start();
 
         }
@@ -119,6 +136,11 @@ namespace _20180628_SP.v1
         private void FrmSenadores_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void FrmSenadores_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            tSimular.Abort();
         }
     }
 }

@@ -24,7 +24,37 @@ namespace Entidades
         private short contadorNegativo;
         private short contadorAbstencion;
 
-        
+
+        public short ContadorAfirmativo
+        {
+            get { return this.contadorAfirmativo; }
+            set { this.contadorAfirmativo = value; }
+        }
+        public short ContadorNegativo
+        {
+            get { return this.contadorNegativo; }
+            set { this.contadorNegativo = value; }
+        }
+        public short ContadorAbstencion
+        {
+            get { return this.contadorAbstencion; }
+            set { this.contadorAbstencion = value; }
+        }
+        public string NombreLey
+        {
+            get { return this.nombreLey; }
+            set { this.nombreLey = value; }
+        }
+        //public Dictionary<string, EVoto> Senadores
+        //{
+        //    get { return this.senadores; }
+        //    set { this.senadores = value; }
+        //}
+
+        public Votacion()
+        {
+            //this.senadores = new Dictionary<string, EVoto>();
+        }
         public Votacion(string nombreLey, Dictionary<string, EVoto> senadores)
         {
             this.nombreLey = nombreLey;
@@ -41,7 +71,8 @@ namespace Entidades
             for (int index = 0; index < this.senadores.Count; index++)
             {
                 // Duermo el hilo
-                System.Threading.Thread.Sleep(2134);
+                //System.Threading.Thread.Sleep(2134);
+                System.Threading.Thread.Sleep(10);
 
                 // Leo el senador actual
                 KeyValuePair<string, EVoto> k = this.senadores.ElementAt(index);
@@ -55,7 +86,8 @@ namespace Entidades
                 this.EventoVotoEfectuado.Invoke(k.Key, this.senadores[k.Key]);
 
                 // Incrementar contadores
-                switch (k.Value){
+                switch (this.senadores[k.Key])
+                {
                     case EVoto.Abstencion:
                         this.contadorAbstencion++;
                         break;
@@ -69,22 +101,13 @@ namespace Entidades
 
             }
         }
-
-
-        public bool Guardar(string archivo, Votacion datos)
-        {
-            try
-            {
-                XmlTextWriter writer = new XmlTextWriter(archivo, System.Text.Encoding.UTF8);
-                XmlSerializer serializer = new XmlSerializer(typeof(Votacion));
-                serializer.Serialize(writer, datos);
-                writer.Close();
-                return true;
-            }
-            catch (Exception e)
-            {
-                throw new Excepciones.ErrorArchivoException(e);
-            }
-        }
+        //public bool Guardar()
+        //{
+        //    return true;
+        //}
+        //public bool Leer(string rutaArchivo)
+        //{
+        //    return true;
+        //}
     }
 }
