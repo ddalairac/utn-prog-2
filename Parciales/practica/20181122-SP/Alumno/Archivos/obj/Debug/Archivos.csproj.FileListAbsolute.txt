@@ -1,0 +1,9 @@
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\20181122-SP\Alumno\Archivos\bin\Debug\Archivos.dll
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\20181122-SP\Alumno\Archivos\bin\Debug\Archivos.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\20181122-SP\Alumno\Archivos\bin\Debug\Entidades.dll
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\20181122-SP\Alumno\Archivos\bin\Debug\Entidades.pdb
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\20181122-SP\Alumno\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\20181122-SP\Alumno\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\20181122-SP\Alumno\Archivos\obj\Debug\Archivos.csproj.CopyComplete
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\20181122-SP\Alumno\Archivos\obj\Debug\Archivos.dll
+C:\Users\diego\Documents\Code\utn-prog-2\Parciales\practica\20181122-SP\Alumno\Archivos\obj\Debug\Archivos.pdb
