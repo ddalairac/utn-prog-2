@@ -1,0 +1,2 @@
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CoreCompileInputs.cache

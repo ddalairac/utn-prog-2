@@ -1,0 +1,29 @@
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\UnitTestTP3.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\UnitTestTP3.pdb
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Clases Abstractas.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Clases Instanciables.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Excepciones.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Archivos.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Clases Abstractas.pdb
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Clases Abstractas.dll.config
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Clases Instanciables.pdb
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Clases Instanciables.dll.config
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Excepciones.pdb
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Excepciones.dll.config
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Archivos.pdb
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\bin\Debug\Archivos.dll.config
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\obj\Debug\UnitTestTP3.csprojAssemblyReference.cache
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\obj\Debug\UnitTestTP3.csproj.CoreCompileInputs.cache
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\obj\Debug\UnitTestTP3.csproj.CopyComplete
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\obj\Debug\UnitTestTP3.dll
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\UnitTestTP3\obj\Debug\UnitTestTP3.pdb
