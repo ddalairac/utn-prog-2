@@ -29,6 +29,21 @@ namespace _20181122_SP
 
             this.cola = new Queue<Patente>();
             this.hilos = new List<Thread>();
+        }  
+        private void FrmPpal_Load(object sender, EventArgs e)
+        {
+            verPatente += vistaPatente1.MostrarPatente;
+            verPatente += vistaPatente2.MostrarPatente;
+            //vistaPatente1
+            MostrarAlerta.AlertaEve += this.Alerta;
+        }
+        private void FinalizarSimulacion()
+        {
+            foreach (Thread item in this.hilos)
+            {
+                if (item != null && item.IsAlive) item.Abort();
+            }
+            this.hilos.Clear();
         }
         public void ProximaPatente(Patente patente)
         {
@@ -36,17 +51,23 @@ namespace _20181122_SP
             this.hilos.Add(t);
             t.Start(patente);
         }
-        private void FrmPpal_Load(object sender, EventArgs e)
+        private void IniciarSimulacion()
         {
-            verPatente += vistaPatente1.MostrarPatente;
-            verPatente += vistaPatente2.MostrarPatente;
-            //vistaPatente1
+            this.FinalizarSimulacion();
+
+            while (this.cola.Count > 0)
+            {
+                Patente p = this.cola.Dequeue();
+                this.ProximaPatente(p);
+            }
         }
 
         private void FrmPpal_FormClosing(object sender, FormClosingEventArgs e)
         {
             this.FinalizarSimulacion();
         }
+
+        #region Botones_de_carga 
 
         private void btnXml_Click(object sender, EventArgs e)
         {
@@ -55,13 +76,7 @@ namespace _20181122_SP
             xml.Leer("patentes.xml", out lp);
             this.cola.Clear();
             this.cola = new Queue<Patente>(lp);
-
-            while (this.cola.Count > 0)
-            {
-                Patente p = this.cola.Dequeue();
-                this.ProximaPatente(p);
-                //MessageBox.Show(p.CodigoPatente, "Pat XML", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+            this.IniciarSimulacion();
         }
 
         private void btnTxt_Click(object sender, EventArgs e)
@@ -82,13 +97,7 @@ namespace _20181122_SP
                     MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
-
-            while (this.cola.Count > 0)
-            {
-                Patente p = this.cola.Dequeue();
-                this.ProximaPatente(p);
-                //MessageBox.Show(p.CodigoPatente, "Pat TXT", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+            this.IniciarSimulacion();
         }
 
         private void btnSql_Click(object sender, EventArgs e)
@@ -98,20 +107,22 @@ namespace _20181122_SP
             sql.Leer("dbo.Patentes", out lp);
             this.cola.Clear();
             this.cola = new Queue<Patente>(lp);
-
-            while (this.cola.Count > 0)
-            {
-                Patente p = this.cola.Dequeue();
-                this.ProximaPatente(p);
-                //MessageBox.Show(p.CodigoPatente, "Pat SQL", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+            this.IniciarSimulacion();
         }
 
-        private void FinalizarSimulacion()
+        #endregion
+
+        public void Alerta(string texto)
         {
-            foreach (Thread item in this.hilos)
+            if (this.InvokeRequired)
             {
-                if (item != null && item.IsAlive) item.Abort();
+                AlertaDel d = new AlertaDel(this.Alerta);
+                this.Invoke(d, new object[] { texto });
+                //return (int) this.Invoke(d, new object[] { texto, numero }); 
+            }
+            else
+            {
+                MessageBox.Show(texto, "Ups!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
     }

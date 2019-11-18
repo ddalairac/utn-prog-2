@@ -19,8 +19,8 @@ namespace Patentes
         public VistaPatente()
         {
             InitializeComponent();
-
             picPatente.Image = fondosPatente.Images[(int)Patente.Tipo.Mercosur];
+            //this.finExposicion += this.LimpiarVista;
         }
 
         public void MostrarPatente(object patente)
@@ -47,14 +47,17 @@ namespace Patentes
                     }
 
 
-                    //Thread.Sleep(r.Next(2000, 5000));
-                    Thread.Sleep(r.Next(100, 2000));
+                    Thread.Sleep(r.Next(2000, 5000));
+                    //Thread.Sleep(r.Next(100, 2000));
 
                     // Agregar evento de que finalizó la exposición de la patente
                     // ALUMNO
                     //finExposicion.Invoke(this);
                 }
-                catch (Exception) { }
+                catch (Exception e)
+                {
+                    MostrarAlerta.InvocarEvento("Error al invocar VistaPatente.MostrarPatente\n"+e.Message);
+                }
             }
             else
             {
@@ -62,6 +65,5 @@ namespace Patentes
                 lblPatenteNro.Text = patente.ToString();
             }
         }
-
     }
 }
