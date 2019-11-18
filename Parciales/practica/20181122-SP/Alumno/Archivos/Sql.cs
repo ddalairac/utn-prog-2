@@ -47,7 +47,7 @@ namespace Archivos
                 conexion.Close();
             }
         }
-            public bool Leer(string tabla, out List<Patente> datos)
+        public bool Leer(string tabla, out List<Patente> datos)
         {
             try
             {
@@ -70,6 +70,10 @@ namespace Archivos
             catch (Exception e)
             {
                 throw new Exception("Error al leer en DB", e);
+            }
+            finally
+            {
+                conexion.Close();
             }
         }
     }
