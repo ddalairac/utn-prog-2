@@ -12,13 +12,14 @@ using Entidades;
 using Archivos;
 using System.Threading;
 using Archivos;
+using Patentes;
 
 namespace _20181122_SP
 {
     public delegate void PatDelegado(Patente patente);
     public partial class FrmPpal : Form
     {
-        public event PatDelegado vistaPatente;
+        public event MostrarPatente verPatente;
         Queue<Patente> cola;
         List<Thread> hilos;
 
@@ -31,11 +32,15 @@ namespace _20181122_SP
         }
         public void ProximaPatente(Patente patente)
         {
-
+            Thread t = new Thread(new ParameterizedThreadStart(verPatente.Invoke));
+            this.hilos.Add(t);
+            t.Start(patente);
         }
         private void FrmPpal_Load(object sender, EventArgs e)
         {
-
+            verPatente += vistaPatente1.MostrarPatente;
+            verPatente += vistaPatente2.MostrarPatente;
+            //vistaPatente1
         }
 
         private void FrmPpal_FormClosing(object sender, FormClosingEventArgs e)
@@ -54,7 +59,8 @@ namespace _20181122_SP
             while (this.cola.Count > 0)
             {
                 Patente p = this.cola.Dequeue();
-                MessageBox.Show(p.CodigoPatente, "Pat XML", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.ProximaPatente(p);
+                //MessageBox.Show(p.CodigoPatente, "Pat XML", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -80,7 +86,8 @@ namespace _20181122_SP
             while (this.cola.Count > 0)
             {
                 Patente p = this.cola.Dequeue();
-                MessageBox.Show(p.CodigoPatente, "Pat TXT", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.ProximaPatente(p);
+                //MessageBox.Show(p.CodigoPatente, "Pat TXT", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -95,7 +102,8 @@ namespace _20181122_SP
             while (this.cola.Count > 0)
             {
                 Patente p = this.cola.Dequeue();
-                MessageBox.Show(p.CodigoPatente, "Pat SQL", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.ProximaPatente(p);
+                //MessageBox.Show(p.CodigoPatente, "Pat SQL", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
