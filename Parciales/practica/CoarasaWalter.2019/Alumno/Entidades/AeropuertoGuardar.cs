@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Entidades
 {
@@ -50,7 +51,7 @@ namespace Entidades
             string desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             try
             {
-                using (StreamWriter sw = new StreamWriter(Path.Combine(desktop, archivo), true))
+                using (StreamWriter sw = new StreamWriter("../../../"+Path.Combine(desktop, archivo), true))
                 {
                     sw.WriteLine($"{time.ToString()} - horas vuelo: {horas}");
                 }

@@ -47,8 +47,8 @@ namespace Patentes
                     }
 
 
-                    Thread.Sleep(r.Next(2000, 5000));
-                    //Thread.Sleep(r.Next(100, 2000));
+                    //Thread.Sleep(r.Next(2000, 5000));
+                    Thread.Sleep(r.Next(100, 2000));
 
                     // Agregar evento de que finalizó la exposición de la patente
                     // ALUMNO
