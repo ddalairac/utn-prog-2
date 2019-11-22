@@ -1,0 +1,6 @@
+D:\ddalairac\utn-prog-2\Parciales\20191121-SP - Dalairac-Diego\Entidades\bin\Debug\Entidades.dll
+D:\ddalairac\utn-prog-2\Parciales\20191121-SP - Dalairac-Diego\Entidades\bin\Debug\Entidades.pdb
+D:\ddalairac\utn-prog-2\Parciales\20191121-SP - Dalairac-Diego\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\ddalairac\utn-prog-2\Parciales\20191121-SP - Dalairac-Diego\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\ddalairac\utn-prog-2\Parciales\20191121-SP - Dalairac-Diego\Entidades\obj\Debug\Entidades.dll
+D:\ddalairac\utn-prog-2\Parciales\20191121-SP - Dalairac-Diego\Entidades\obj\Debug\Entidades.pdb
