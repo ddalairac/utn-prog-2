@@ -20,17 +20,20 @@ namespace Archivos
         /// <returns></returns>
         public bool Guardar(string archivo, T datos)
         {
+            XmlTextWriter writer = new XmlTextWriter(archivo, System.Text.Encoding.UTF8);
             try
             {
-                XmlTextWriter writer = new XmlTextWriter(archivo, System.Text.Encoding.UTF8);
                 XmlSerializer serializer = new XmlSerializer(typeof(T));
                 serializer.Serialize(writer, datos);
-                writer.Close();
                 return true;
             }
             catch (Exception e)
             {
                 throw new Excepciones.ArchivosException(e);
+            }
+            finally
+            {
+                writer.Close();
             }
         }
         /// <summary>
@@ -41,9 +44,9 @@ namespace Archivos
         /// <returns></returns>
         public bool Leer(string archivo, out T datos)
         {
+            XmlTextReader reader = new XmlTextReader(archivo);
             try
             {
-                XmlTextReader reader = new XmlTextReader(archivo);
                 XmlSerializer ser = new XmlSerializer(typeof(T));
                 datos = (T)ser.Deserialize(reader);
                 reader.Close();
@@ -52,6 +55,10 @@ namespace Archivos
             catch (Exception e)
             {
                 throw new ArchivosException(e);
+            }
+            finally
+            {
+                reader.Close();
             }
         }
 

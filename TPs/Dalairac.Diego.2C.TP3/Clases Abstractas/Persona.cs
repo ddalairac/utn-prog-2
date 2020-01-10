@@ -171,7 +171,7 @@ namespace EntidadesAbstractas
         private string ValidarNombreApellido(string dato)
         {
             string rta = "Error";
-            Regex r = new Regex(@"^[a-zA-Z ]+$");
+            Regex r = new Regex(@"^[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ ]+$");
             if (r.IsMatch(dato))
             {
                 rta = dato;

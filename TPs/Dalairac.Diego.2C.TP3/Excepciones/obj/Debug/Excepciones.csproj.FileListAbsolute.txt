@@ -4,3 +4,4 @@ C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\Excepciones
 C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
 C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\Excepciones\obj\Debug\Excepciones.dll
 C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\diego\Documents\Code\tp_laboratorio_2\Dalairac.Diego.2C.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache

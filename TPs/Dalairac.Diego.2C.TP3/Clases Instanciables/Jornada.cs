@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -83,7 +84,9 @@ namespace Clases_Instanciables
             try
             {
                 Texto t = new Texto();
-                return t.Guardar(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory) + "\\Jornada.txt", jornada.ToString());
+                string desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+                string path = desktop + "\\Jornada.txt";
+                return t.Guardar(path, jornada.ToString());
             }
             catch (Exception e)
             {

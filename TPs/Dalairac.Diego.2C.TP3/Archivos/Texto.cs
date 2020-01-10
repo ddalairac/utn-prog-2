@@ -42,16 +42,19 @@ namespace Archivos
         /// <returns></returns>
         public bool Leer(string archivo, out string datos)
         {
+            StreamReader sr = new StreamReader(archivo);
             try
             {
-                StreamReader sr = new StreamReader(archivo);
                 datos = sr.ReadToEnd();
-                sr.Close();
                 return true;
             }
             catch (Exception e)
             {
                 throw new ArchivosException(e);
+            }
+            finally
+            {
+                sr.Close();
             }
 
         }
